@@ -1,0 +1,310 @@
+/* 
+
+Styles:		Brand Config
+
+origin: 	1.0 — 11/16/22
+version: 	1.1 — 01/05/23 Update
+author: 	Joshua Blankenship
+email: 		joshua@blankenship.xyz
+website: 	http://blankenship.xyz
+          
+
+/* FOUNDATION */
+
+	*, html, body, div, span, object, iframe,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li, img, figure, figcaption,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		box-sizing: border-box;
+		font-smoothing: antialiased;
+		margin: 0;
+		padding: 0;
+		outline: none;
+		}
+
+	html {
+    	font-size: 16px;
+	}
+
+	@media(min-width:700px) {
+	    html {
+	        font-size: 16px
+	    }
+	}
+
+	@media(min-width:1200px) {
+	    html {
+	        font-size: 17px
+	    }
+	}
+
+	@media(min-width:1400px) {
+	    html {
+	        font-size: 18px
+	    }
+	}
+
+	body {
+		color:  #1D1E21;
+		margin:  0 auto;
+		padding: 0;
+		max-width: 2000px;
+		min-height: 100vh;
+	}
+
+	main {
+	    background: #FEF9F3;
+    	margin: 0 auto;
+		padding: 0 15% 4rem;
+		width: 100vw;		
+	}
+
+	header {
+		margin: 0 auto;
+		width: 70vw;
+	}
+
+	header nav,
+	header section {
+		display: grid;
+	    grid-template-columns: 75% 25%;
+	}
+
+	header nav { 
+		height: 4rem;
+		margin-bottom: 4rem;
+		padding:  2rem 0;
+	}
+
+	header section {
+		margin-bottom:  2rem;
+		padding:  2rem 0;
+	}
+
+	main figure img { 
+		border-radius: 4px;
+		box-shadow: 0 0.938em 2.188em rgba(50,50,93,.1), 0 0.313em 0.938em rgba(0,0,0,.07);	
+		width: 100%;
+	}
+
+
+
+/* TYPOGRAPHY */
+
+	ul {
+	    list-style-type: none;
+	}
+
+	h1 { 
+		font: 800 2rem/2rem -apple-system, BlinkMacSystemFont, sans-serif;
+ 		letter-spacing: -.075rem;
+	}
+
+	h2 {
+		font: 400 4rem/4rem -apple-system, BlinkMacSystemFont, sans-serif;
+ 		letter-spacing: -.2rem;
+ 	}
+
+ 	h2 span { display: block; }
+
+  	h3,
+  	h5 {
+		font: 300 .9rem/1.25rem "IBMPlexMono", monospace;
+		padding-top: .875rem;
+ 	}
+
+	h4 { 
+		font: 400 1.5rem/1.5rem -apple-system, BlinkMacSystemFont, sans-serif;
+ 		letter-spacing: -.075rem;
+	}
+
+  	p {
+		font: 300 .8rem/1.25rem "IBMPlexMono", monospace;
+ 	}
+
+/* SECTION -- FOOTER */
+
+	
+	footer {
+		color:  #FEF9F3;
+		background: #1D1E21;
+		padding: 5rem 15% 5rem;
+		width: 100vw;	
+	}
+
+	footer section {
+		display: grid;
+	    grid-template-columns: 25% 50% 25%;
+	    margin-bottom: 5rem;
+	}
+
+	footer section img { 
+		width: 15%;
+	}
+
+	footer h4 {
+		color:  #666;
+		font: 400 1.25rem/1.25rem -apple-system, BlinkMacSystemFont, sans-serif;
+	}
+
+	footer h5 {
+		color:  #666;
+		padding: 0;
+	}
+
+	footer a { color: inherit; }
+
+	footer p { 
+		color: #FEF9F3;
+		padding-right: 3rem;
+	}
+
+	section.rule { 
+		border-top: 2px solid #444; 
+		padding-top: 2rem;
+	}
+	
+	footer section#copyright {
+ 		display: grid;
+ 	    grid-template-columns: 75% 25%;
+ 	}
+
+	/* ANIMATION */
+
+	main ul {
+		position: relative;
+	}
+
+	main ul li:nth-child(even) {
+		position: absolute;
+		top: 0;
+	}
+
+	.uno {
+		margin-bottom: 5rem;
+	}
+
+	.dos {
+		animation-name: crossfade;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+		animation-delay: 3s;
+		animation-duration: 3s;
+		animation-direction: alternate;
+		width: 100%;
+	}
+
+	@keyframes crossfade {
+		0% {
+			opacity: 1;
+		}
+		25% {
+			opacity: 1;
+		}
+		75% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+
+
+/* WEE SCREENS */
+
+		@media (min-width: 801px) and (max-width: 1000px) {
+
+
+		}
+
+		@media (min-width: 100px) and (max-width: 600px) {
+
+		main {
+		padding: 0 5vw;
+		width: 100vw;		
+		}
+
+		header {
+			width: 90vw;
+		}
+
+		header nav,
+		header section {
+			display: block;
+		}
+
+		header nav { 
+			height: 4rem;
+			margin-bottom: 4rem;
+			padding:  2rem 0;
+		}
+
+		header section {
+			margin-bottom:  2rem;
+			padding:  2rem 0;
+		}
+
+		h2 {
+			font: 400 2.75rem/2.75rem -apple-system, BlinkMacSystemFont, sans-serif;
+		}
+
+	 	h2 span { display: inline; }
+
+
+		main figure img { 
+			border-radius: 0;
+			box-shadow: none;	
+		}
+
+		.uno {
+			margin-bottom: 5vw;
+		}
+		
+		footer {
+			padding: 5vw;
+		}
+
+		footer section {
+			display: block;
+		    margin-bottom: 10vw;
+		}
+
+		footer section img { 
+			width: 50%;
+		}
+
+		footer p { 
+			margin-bottom: 1rem;
+			padding-right: 0;
+		}
+
+		h4 { 
+			font: 400 1.75rem/1.75rem -apple-system, BlinkMacSystemFont, sans-serif;
+	 		letter-spacing: -.075rem;
+	 		margin-bottom: 1rem;
+		}
+
+		footer h4.lite { color: #FEF9F3; }
+
+		footer h5 {
+			font: 300 1rem/1rem "IBMPlexMono", monospace;
+	 	}
+
+	 	footer section#copyright {
+	 		display: grid;
+	 	    grid-template-columns: 50% 50%;
+	 	}
+
+		footer section#copyright h5 {
+				font: 300 .6rem/.6rem "IBMPlexMono", monospace;
+		 	}
+
+		}
+
+
+/* 2023 */
+
+	

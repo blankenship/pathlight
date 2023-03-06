@@ -138,7 +138,7 @@ website: 	http://blankenship.xyz
 /* TYPOGRAPHY */
 
 	h3 {
-		font: 700 2rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		font: 700 2rem/2.5rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
 	}
 
 	h4 {
@@ -147,11 +147,7 @@ website: 	http://blankenship.xyz
 	}
 
   	p {
-		font: 400 1rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
- 	}
-
- 	code {
- 		font-family: 'IBM Plex Mono', monospace;
+		font: 400 1rem/2.5rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
  	}
 
 	code { 
@@ -159,8 +155,10 @@ website: 	http://blankenship.xyz
 		border-radius: 5px;
 		color: #ddd;
 		display: block;
-		font-size: 85%;
-		padding: 1rem;
+ 		font: 400 1rem/1.5rem 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+		font-size: 90%;
+		margin-bottom: 1.5rem;
+		padding: 1.5rem;
 	}
 
 	code a {

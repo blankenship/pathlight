@@ -164,9 +164,9 @@ website: 	http://blankenship.xyz
 
 	p code {
 		background: inherit;
-		color: seagreen;
+		color: #3D3D3D;
 		display: inline;
- 		font: 400 1.25rem/1.75rem 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+ 		font: 700 1.25rem/1.75rem 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
 		font-size: 100%;
 		margin-bottom: 0;
 		padding: 0;

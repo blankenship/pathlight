@@ -178,6 +178,7 @@ website: 	http://blankenship.xyz
 	main article h2 {
 		font: 700 2.5rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
+ 		margin-bottom: 2.5rem;
 	}
 
 	main article h3 {
@@ -190,7 +191,7 @@ website: 	http://blankenship.xyz
 	}
 
 	main article p {
-		font: 400 1.25rem/1.75rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		font: 400 1rem/1.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		margin-bottom: 1.75rem;
  	}
 

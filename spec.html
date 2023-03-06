@@ -100,7 +100,12 @@
 
 			<p><strong>Note:</strong> This document describes the standard elements for podcast RSS feeds. The extendable nature of RSS allows for the use of additional elements as long as a proper namespace extension is declared in the XML. The itunes, podcast, and atom namespace extensions include additional "non-standard" elements that can be used in podcast RSS feeds, although broad support should not be expected.</p>
 
-			<h3>Required channel</h3>
+			<h3>Channel Elements</h3>
+			<nav>
+				<p>Jump to: <a href="#channelrequired">Required</a> | <a href="#channelrecommended">Recommended</a> | <a href="#channelsituational">Situational</a></p>
+			</nav>
+
+			<h4><a name="channelrequired">Required Channel</a></h4>
 
 			<h5>atom:link rel="self"</h5>
 
@@ -163,7 +168,7 @@
 
 			<p>Image must be a minimum size of 1400 x 1400 pixels and a maximum size of 3000 x 3000 pixels, in JPEG or PNG format, 72 dpi, with appropriate file extensions (.jpg, .png), and in the RGB colorspace. File type extension must match the actual file type of the image file.</p>
 
-			<h3>Recommended channel</h3>
+			<h4><a name="channelrecommended">Recommended Channel</a></h4>
 
 			<h5>image</h5>
 
@@ -203,7 +208,7 @@
 
 			<code>itunes:authorDallas Times-Herald/itunes:author</code>
 
-			<h3>Situational channel</h3>
+			<h4><a name="channelsituational">Situational Channel</a></h4>
 
 			<h5><strong></strong>copyright<strong></strong></h5>
 
@@ -212,8 +217,6 @@
 			<code>copyrightThe Podcast Standards Project/copyright</code>
 
 			<p>Should not include the word "Copyright", the © symbol, and/or a year.</p>
-
-			<p></p>
 
 			<h5>podcast:funding</h5>
 
@@ -241,7 +244,13 @@
 
 			<p>The only valid value for this element is <strong>yes</strong>. All other values will be ignored.</p>
 
-			<h3><strong>Required item</strong></h3>
+
+			<h3>Item Elements</h3>
+			<nav>
+				<p>Jump to: <a href="#itemrequired">Required</a> | <a href="#itemrecommended">Recommended</a> | <a href="#itemsituational">Situational</a></p>
+			</nav>
+
+			<h4><a name="itemrequired">Required Item</a></h4>
 
 			<h5><strong>title</strong></h5>
 
@@ -267,7 +276,7 @@
 
 			<p>Each episode must have a unique GUID that never changes. Values are case-sensitive strings.</p>
 
-			<h3><strong>Recommended item</strong></h3>
+			<h4><a name="itemrecommended">Recommended Item</a></h4>
 
 			<h5><strong>link</strong></h5>
 
@@ -339,7 +348,7 @@
 
 			<p>Must contain two attributes: The <strong>URL</strong> of the podcast transcript, and the <strong>type</strong> (text/plain, <a href="https://github.com/Podcastindex-org/podcast-namespace/blob/main/transcripts/transcripts.md#html" target="_blank">text/html</a>, <a href="https://github.com/Podcastindex-org/podcast-namespace/blob/main/transcripts/transcripts.md#webvtt" target="_blank">text/vtt</a>, <a href="https://github.com/Podcastindex-org/podcast-namespace/blob/main/transcripts/transcripts.md#json" target="_blank">application/json</a>, <a href="https://github.com/Podcastindex-org/podcast-namespace/blob/main/transcripts/transcripts.md#srt" target="_blank">application/x-subrip</a>).<br></p>
 
-			<h3>Situational<strong> </strong>item</h3>
+			<h4><a name="itemsituational">Situational Item</a></h4>
 
 			<p><strong>itunes:episode<br></strong>The chronological number that is associated with a podcast episode.</p>
 

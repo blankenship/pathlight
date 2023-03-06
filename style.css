@@ -157,7 +157,7 @@ website: 	http://blankenship.xyz
 		display: block;
  		font: 400 1rem/1.5rem 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
 		font-size: 90%;
-		margin-bottom: 1.5rem;
+		margin-bottom: 1.75rem;
 		padding: 1.5rem;
 	}
 
@@ -180,8 +180,8 @@ website: 	http://blankenship.xyz
 	}
 
 	main article p {
-		font: 400 1rem/1.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
-		margin-bottom: 1.5rem;
+		font: 400 1.25rem/1.75rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		margin-bottom: 1.75rem;
  	}
 
 /* WEE SCREENS */

@@ -164,7 +164,7 @@ website: 	http://blankenship.xyz
 
 	p code {
 		background: inherit;
-		color: #3D3D3D;
+		color: #8D8D8D;
 		display: inline;
  		font: 700 1.25rem/1.75rem 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
 		font-size: 100%;
@@ -188,12 +188,11 @@ website: 	http://blankenship.xyz
  		margin-bottom: 2.5rem;
 	}
 
-	main article nav {
-		color: #7D7D7D;
-		font: 700 .65rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+	main article nav p {
+		font: 700 .8rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		text-transform: uppercase;
 		letter-spacing: .02rem;
-		margin-top: -2.5rem;
+		margin: -2.5rem 0 5rem;
 	}
 
 	main article nav a {

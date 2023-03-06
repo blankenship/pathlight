@@ -69,18 +69,16 @@ website: 	http://blankenship.xyz
 		max-width: 1200px;
 		margin: 0 auto;
 	    display: grid;
-	    grid-template-columns: 20% 60%;
+	    grid-template-columns: 30% 70%;
 	    padding: 4rem 0;
 	}
 
 	header nav h1 {
-		background: yellow;
 		font: 800 2rem/2rem 'Zuume', sans-serif;
 		text-transform: uppercase;
 	}
 
 	header nav ul {
-		background: red;
 		font: 700 1rem/1rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 	}
 

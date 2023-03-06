@@ -186,21 +186,21 @@ website: 	http://blankenship.xyz
 	main article h4 {
 		font: 400 1.5rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
- 		margin: 2.5rem 0 0;
+ 		margin: 5rem 0 0;
 	}
 
 	main article h5 {
 		color: #9D9D9D;
 		font: 700 1.25rem/1.25rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
- 		margin: 4.5rem 0 1.5rem;
+ 		margin: 3rem 0 1.5rem;
 	}
 
 	main article nav p {
 		font: 700 .8rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		text-transform: uppercase;
-		letter-spacing: .02rem;
-		margin: -2.5rem 0 5rem;
+		letter-spacing: .05rem;
+		margin: -2.5rem 0 2.5rem;
 	}
 
 	main article nav a {

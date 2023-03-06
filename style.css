@@ -68,11 +68,15 @@ website: 	http://blankenship.xyz
 		background-color: yellow;
 	}
 
+	section {
+		max-width: 1600px;
+		margin: 0 auto;
+	}
+
 	header nav ul {}
 
 	header section {
 		background: #1D1D1D;
-		margin: 0 auto;
 	}
 
 	header section div {

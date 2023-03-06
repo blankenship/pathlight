@@ -95,13 +95,13 @@ website: 	http://blankenship.xyz
 
 	header div section h1 {
 		color: #F05A28;
-		font: 800 2rem/2rem Zuume, sans-serif;
+		font: 800 4rem/3rem 'Zuume-Black', sans-serif;
 		text-transform: uppercase;
 	}
 
 	header div section h2 {
 		color: #EEE;
-		font: 400 1rem/1rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		font: 400 1rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
 	}
 
@@ -126,16 +126,16 @@ website: 	http://blankenship.xyz
 /* TYPOGRAPHY */
 
 	h3 {
-		font: 700 1rem/1rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		font: 700 2rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 	}
 
 	h4 {
-		font: 800 1rem/1rem Zuume, sans-serif;
+		font: 800 1rem/1rem 'Zuume-Bold', sans-serif;
 		text-transform: uppercase;
 	}
 
   	p {
-		font: 400 .9rem/1.25rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		font: 400 1rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  	}
 
 

@@ -87,20 +87,20 @@ website: 	http://blankenship.xyz
 		background: #1D1D1D;
 	}
 
-	header section div {
+	header div section {
 		padding: 4rem 0;
 		display: grid;
 	    grid-template-columns: 45% 45%;
 	    grid-gap: 10%;
 	}
 
-	header section div h1 {
+	header div section h1 {
 		color: #F05A28;
 		font: 800 2rem/2rem Zuume, sans-serif;
 		text-transform: uppercase;
 	}
 
-	header section div h2 {
+	header div section h2 {
 		color: #EEE;
 		font: 400 1rem/1rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;

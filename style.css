@@ -190,11 +190,11 @@ website: 	http://blankenship.xyz
 	}
 
 	main article h5 {
-		border-bottom: 1px solid #EDEDED;		
+		border-bottom: 1px solid #CDCDCD;		
 		font: 700 1.25rem/1.25rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
  		margin: 3rem 0 1.5rem;
- 		padding-bottom: 1.5rem;
+ 		padding-bottom: 1rem;
 	}
 
 	main article nav p {

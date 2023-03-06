@@ -139,8 +139,17 @@ website: 	http://blankenship.xyz
 .dark	{ background-color: #1D1D1D }
 
 
-/* SECTION -- FOOTER */
+/* SECTION -- MAIN */
 	
+	main section {
+		display: grid;
+	    grid-template-columns: 45% 45%;
+	    grid-gap: 10%;
+	    padding: 4rem 0;
+	}
+
+/* SECTION -- FOOTER */
+
 	footer {
 		background-color: #1D1D1D;
 	}
@@ -153,6 +162,7 @@ website: 	http://blankenship.xyz
 	    grid-gap: 10%;
 	    padding: 4rem 0;
 	}
+
 
 /* TYPOGRAPHY */
 

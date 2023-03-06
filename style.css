@@ -161,17 +161,27 @@ website: 	http://blankenship.xyz
 		padding: 1.5rem;
 	}
 
+	p code {
+		background: inherit;
+		color: seagreen;
+		display: inline;
+ 		font: 400 1.25rem/1.75rem 'IBM Plex Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+		font-size: 100%;
+		margin-bottom: 0;
+		padding: 0;
+	}
+
 	code a {
 		color: #F05A28!important;
 	}
 
 	main article h2 {
-		font: 700 2rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		font: 700 2.5rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
 	}
 
 	main article h3 {
-		font: 700 1.5rem/1.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		font: 400 1.5rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
 	}
 
@@ -182,6 +192,11 @@ website: 	http://blankenship.xyz
 	main article p {
 		font: 400 1.25rem/1.75rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		margin-bottom: 1.75rem;
+ 	}
+
+ 	main article hr { 
+ 		height: 4rem; 
+ 		margin-bottom: 1.75rem;
  	}
 
 /* WEE SCREENS */

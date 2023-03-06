@@ -66,8 +66,7 @@ website: 	http://blankenship.xyz
 	header nav {
 		max-width: 1200px;
 		margin: 0 auto;
-	    grid-template-columns: 45% 45%;
-	    grid-gap: 10%;
+	    grid-template-columns: 30% 70%;
 	    padding: 4rem 0;
 	}
 

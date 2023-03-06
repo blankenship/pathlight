@@ -143,8 +143,22 @@ website: 	http://blankenship.xyz
 		font: 400 1rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  	}
 
+ 	code {
+ 		font-family: 'IBM Plex Mono', monospace;
+ 	}
+ 	
+	pre code { 
+		background: #2d2d2d;
+		border-radius: 5px;
+		color: #ddd;
+		display: block;
+		font-size: 85%;
+		padding: 1rem;
+	}
 
-	
+	pre code a {
+		color: #F05A28!important;
+	}
 
 
 

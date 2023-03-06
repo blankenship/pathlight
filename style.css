@@ -184,9 +184,16 @@ website: 	http://blankenship.xyz
 	}
 
 	main article h4 {
-		font: 400 2rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		font: 400 1.5rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
  		margin-bottom: 2.5rem;
+	}
+
+	main article h5 {
+		color: #F05A28;
+		font: 700 1.5rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+ 		letter-spacing: -.075rem;
+ 		margin-bottom: 1.5rem;
 	}
 
 	main article nav p {
@@ -198,10 +205,6 @@ website: 	http://blankenship.xyz
 
 	main article nav a {
 		color: #F05A28;
-	}
-
-	main article h5 {
-		margin-top: 4rem;
 	}
 
 	main article p {

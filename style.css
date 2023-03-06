@@ -58,8 +58,8 @@ website: 	http://blankenship.xyz
 		margin:  0 auto;
 		padding: 0;
 		min-height: 100vh;
-		background: linear-gradient(90deg, #EEE 21px, transparent 1%) center, linear-gradient(#EEE 21px, transparent 1%) center, #1D1D1D;
-  		background-size: 22px 22px;
+		background: linear-gradient(90deg, #EEE 24px, transparent 1%) center, linear-gradient(#EEE 24px, transparent 1%) center, #CCC;
+  		background-size: 25px 25px;
 	}
 
 	header {

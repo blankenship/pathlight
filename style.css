@@ -65,6 +65,7 @@ website: 	http://blankenship.xyz
 
 	header nav {
 		max-width: 1600px;
+		background-color: yellow;
 	}
 
 	header nav ul {}

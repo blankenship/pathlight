@@ -109,7 +109,7 @@ website: 	http://blankenship.xyz
 		box-shadow: 0 0.938em 2.188em rgba(50,50,50,.1), 0 0.313em 0.938em rgba(0,0,0,.07);	
 		max-width: 1200px;
 		margin: 4rem auto;	
-		padding: 4rem 8rem;	
+		padding: 6rem 12rem;	
 	}
 
 /* SECTION -- COLORS */
@@ -193,7 +193,7 @@ website: 	http://blankenship.xyz
 		color: #F05A28;
 		font: 700 1.5rem/1.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
- 		margin: 1.5rem 0;
+ 		margin: 3rem 0 1.5rem;
 	}
 
 	main article nav p {

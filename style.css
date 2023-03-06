@@ -177,13 +177,13 @@ website: 	http://blankenship.xyz
 	}
 
 	main article h3 {
-		font: 700 1.5rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		font: 700 2rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
  		margin-bottom: 2.5rem;
 	}
 
 	main article h4 {
-		font: 400 2rem/2rem 'Zuume', sans-serif;
+		font: 400 3rem/2rem 'Zuume', sans-serif;
  		margin: 5rem 0 0;
 	}
 
@@ -195,11 +195,14 @@ website: 	http://blankenship.xyz
  		padding-bottom: 1rem;
 	}
 
+	main article nav {
+		margin: -2.5rem 0 2.5rem;
+	}
+
 	main article nav p {
 		font: 700 .8rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		text-transform: uppercase;
 		letter-spacing: .05rem;
-		margin: -2.5rem 0 2.5rem;
 	}
 
 	main article nav a {

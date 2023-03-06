@@ -103,6 +103,12 @@ website: 	http://blankenship.xyz
  		letter-spacing: -.075rem;
 	}
 
+	main article {
+		background: #fff;
+		max-width: 1200px;
+		margin: 0 auto;	
+		padding: 4rem 400px;	
+	}
 
 /* SECTION -- COLORS */
 
@@ -146,7 +152,7 @@ website: 	http://blankenship.xyz
  	code {
  		font-family: 'IBM Plex Mono', monospace;
  	}
- 	
+
 	pre code { 
 		background: #2d2d2d;
 		border-radius: 5px;

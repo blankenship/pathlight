@@ -108,13 +108,11 @@
 			<h4><a name="channelrequired">Required Channel</a></h4>
 
 			<h5>atom:link rel="self"</h5>
-
 			<p>The declared canonical feed URL for the podcast.</p>
 
 			<code>atom:link href="<a href="https://www.podstandards.org/my-podcast.rss" target="_blank">https://www.podstandards.org/my-podcast.rss</a>" rel="self" type="application/rss+xml" /</code>
 
 			<h5>title</h5>
-
 			<p>The podcast title. A string containing the name of a podcast and nothing else.</p>
 
 			<code>titleSample Podcast Title/title</code>
@@ -122,7 +120,6 @@
 			<p>* <em>Including keywords in an attempt to improve a podcast's search ranking, may result in being blocked from certain directories.</em></p>
 
 			<h5>description</h5>
-
 			<p>Text that describes a podcast to potential listeners. </p>
 
 			<code>description![CDATA[Sample podcast description.]]/description</code>
@@ -134,13 +131,11 @@
 			<p>The maximum amount of text allowed for this tag is 4,000 bytes.</p>
 
 			<h5>language</h5>
-
 			<p>The language that is spoken on the podcast, specified in the <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">ISO 639</a> format.</p>
 
 			<code>languageen-us/language</code>
 
 			<h5>itunes:category</h5>
-
 			<p>The category that best fits a podcast, selected from the list of <a href="https://podcasters.apple.com/support/1691-apple-podcasts-categories" target="_blank">Apple Podcasts categories</a>.</p>
 
 			<code>1 | itunes:category text="News"
@@ -151,7 +146,6 @@
 			<p>Multiple category selections are permitted. Categories should be listed in order of priority.</p>
 
 			<h5>itunes:explicit</h5>
-
 			<p>The parental advisory information for a podcast.</p>
 
 			<code>itunes:explicitfalse/itunes:explicit</code>
@@ -159,7 +153,6 @@
 			<p>The value can be <strong>true</strong>, indicating the presence of explicit content, or <strong>false</strong>, indicating that a podcast doesn’t contain explicit language or adult content.</p>
 
 			<h5>itunes:image</h5>
-
 			<p>The artwork for the podcast, specified by providing a URL linking to it.</p>
 
 			<code>itunes:image href="<a href="https://www.podstandards.org/podcast/artwork.jpg" target="_blank">https://www.podstandards.org/podcast/artwork.jpg</a>" /</code>
@@ -171,7 +164,6 @@
 			<h4><a name="channelrecommended">Recommended Channel</a></h4>
 
 			<h5>image</h5>
-
 			<p>The artwork for the podcast, specified by providing a URL linking to it. A redundant image tag that better facilitates open standards.</p>
 
 			<code>1 | image
@@ -185,7 +177,6 @@
 			<p>Image must be a minimum size of 1400 x 1400 pixels and a maximum size of 3000 x 3000 pixels, in JPEG or PNG format, 72 dpi, with appropriate file extensions (.jpg, .png), and in the RGB colorspace. File type extension must match the actual file type of the image file.</p>
 
 			<h5>link</h5>
-
 			<p>The website or web page associated with a podcast.</p>
 
 			<code>link<a href="https://www.podstandards.org/" target="_blank">https://www.podstandards.org</a>/link</code>
@@ -195,7 +186,6 @@
 			<code>link<a href="https://www.podstandards.org/podcast" target="_blank">https://www.podstandards.org/podcast</a>/link</code>
 
 			<h5>podcast:locked</h5>
-
 			<p>Tells podcast hosting platforms whether they are allowed to import this feed.</p>
 
 			<code>podcast:lockedyes/podcast:locked</code>
@@ -203,7 +193,6 @@
 			<p>A value of <strong>yes</strong> means that import attempts should be rejected. A value of <strong>no</strong> means the feed can be imported.</p>
 
 			<h5><strong>itunes:author</strong></h5>
-
 			<p>The group, person, or people responsible for creating the podcast.</p>
 
 			<code>itunes:authorDallas Times-Herald/itunes:author</code>
@@ -211,7 +200,6 @@
 			<h4><a name="channelsituational">Situational Channel</a></h4>
 
 			<h5><strong></strong>copyright<strong></strong></h5>
-
 			<p>The copyright details for a podcast.</p>
 
 			<code>copyrightThe Podcast Standards Project/copyright</code>
@@ -219,13 +207,11 @@
 			<p>Should not include the word "Copyright", the © symbol, and/or a year.</p>
 
 			<h5>podcast:funding</h5>
-
 			<p><br>Lists donation/funding links for the podcast. The content of the tag is the recommended string to be used with the link.</p>
 
 			<code>podcast:funding url="<a href="https://www.podstandards.org/support" target="_blank">https://www.podstandards.org/support</a>"Support/podcast:funding</code>
 
 			<h5><strong>itunes:type</strong></h5>
-
 			<p><br>Specifies the podcast as either <strong>episodic</strong> or <strong>serial</strong>.</p>
 
 			<code>itunes:typeepisodic/itunes:type</code>
@@ -237,7 +223,6 @@
 			<p>Episodic is the default and assumed if this element is not present. This element is required for serial podcasts.</p>
 
 			<h5><strong>itunes:complete<br></strong></h5>
-
 			<p>Specifies that a podcast is complete and will not post any more episodes in the future.</p>
 
 			<code>itunes:completeyes/itunes:complete</code>
@@ -253,7 +238,6 @@
 			<h4><a name="itemrequired">Required Item</a></h4>
 
 			<h5><strong>title</strong></h5>
-
 			<p><br>The title for the podcast episode.</p>
 
 			<code>titleWhy podcasts standards are important/title</code>
@@ -261,7 +245,6 @@
 			<p>The title value is a string containing a concise name for your episode. Title values should not include season or episode numbers, as there are specific elements to capture those values.</p>
 
 			<h5><strong>enclosure</strong></h5>
-
 			<p><strong><br></strong>The audio/video episode content, file size, and file type information.</p>
 
 			<code>enclosure length="24986" type="audio/mpeg" url="<a href="https://www.podstandards.org/episode_123.mp3" target="_blank">https://www.podstandards.org/episode_123.mp3</a>" /</code>
@@ -269,7 +252,6 @@
 			<p>The element MUST have three attributes: The <strong>length</strong> in bytes, the MIME media <strong>type</strong>(audio/mpeg, audio/x-m4a, video/quicktime, video/mp4, video/x-m4v), and the <strong>URL</strong> of the file. Supported file formats include MP3 (recommended), M4A, MOV, MP4, and M4V.</p>
 
 			<h5><strong>guid<br></strong></h5>
-
 			<p>The globally unique identifier (<a href="https://cyber.harvard.edu/rss/rss.html#ltguidgtSubelementOfLtitemgt" target="_blank">GUID</a>) for a podcast episode.</p>
 
 			<code>guid isPermaLink="false"podcast-12345678/guid</code>
@@ -279,7 +261,6 @@
 			<h4><a name="itemrecommended">Recommended Item</a></h4>
 
 			<h5><strong>link</strong></h5>
-
 			<p><strong><br></strong>The URL of a web page associated with the podcast episode.</p>
 
 			<code>link<a href="https://www.podstandards.org/1983/05/06/post.html" target="_blank">https://www.podstandards.org/1983/05/06/post.html</a>/link</code>
@@ -287,7 +268,6 @@
 			<p>Useful when an episode has a corresponding webpage.</p>
 
 			<h5><strong>pubDate</strong></h5>
-
 			<p><strong><br></strong>The release date and time of an episode.</p>
 
 			<code>pubDateFri, 26 Feb 2021 00:00:00 -0500/pubDate</code>
@@ -295,7 +275,6 @@
 			<p>Values must use the <a href="http://www.faqs.org/rfcs/rfc2822.html" target="_blank">RFC 2822</a> specifications.</p>
 
 			<h5><strong>description</strong></h5>
-
 			<p><strong><br></strong>The description of the podcast episode.</p>
 
 			<code>descriptionSample episode description./description</code>
@@ -307,13 +286,11 @@
 			<p>The maximum amount of text allowed for this tag is 4000 bytes. Some HTML is permitted (<code>p, ol, ul, li, a, b, i, strong, em</code>) if wrapped in the <code>CDATA</code> tag.</p>
 
 			<h5><strong>itunes:duration<br></strong></h5>
-
 			<p>The duration of a podcast episode in seconds.</p>
 
 			<code>itunes:duration1801/itunes:duration</code>
 
 			<h5><strong>itunes:image<br></strong></h5>
-
 			<p>The episode-specific artwork.</p>
 
 			<code>itunes:image href="<a href="https://www.podstandards.org/podcast/episode/1/artwork.jpg" target="_blank">https://www.podstandards.org/podcast/episode/1/artwork.jpg</a>" /</code>
@@ -323,7 +300,6 @@
 			<p>Image must be a minimum size of 1400 x 1400 pixels and a maximum size of 3000 x 3000 pixels, in JPEG or PNG format, 72 dpi, with appropriate file extensions (.jpg, .png), and in the RGB colorspace. File type extension must match the actual file type of the image file.</p>
 
 			<h5><strong>itunes:explicit<br></strong></h5>
-
 			<p>The parental advisory information for a podcast episode.</p>
 
 			<code>itunes:explicittrue/itunes:explicit</code>
@@ -335,7 +311,6 @@
 			<p>The value can be <strong>true</strong>, indicating the presence of explicit content, or <strong>false</strong>, indicating that a podcast doesn’t contain explicit language or adult content.</p>
 
 			<h5><strong>podcast:transcript<br></strong></h5>
-
 			<p>A link to a transcript or closed captions file. Multiple tags can be present for multiple formats.</p>
 
 			<code>1 | podcast:transcript url="<a href="https://www.podstandards.org/episode1/transcript.html" target="_blank">https://www.podstandards.org/episode1/transcript.html</a>" type="text/html" /
@@ -369,7 +344,11 @@
 
 			<code>itunes:episodeTypefull/itunes:episodeType</code>
 
-			<h5>Full</strong> (assumed if absent): A complete podcast episode. <strong>Trailer</strong>: A short promotional or preview episode for a podcast. <strong>Bonus</strong>: Additional content that is unlike a typical episode (e.g., behind-the-scenes or a promotional episode for another podcast).</p>
+			<p><strong>Full</strong> (assumed if absent): A complete podcast episode.</p>
+
+			<p><strong>Trailer</strong>: A short promotional or preview episode for a podcast.</p>
+
+			<p><strong>Bonus</strong>: Additional content that is unlike a typical episode (e.g., behind-the-scenes or a promotional episode for another podcast).</p>
 
 			<h5>itunes:block</h5> 
 			<p>Prevents a specific episode from appearing in podcast listening applications.</p>

@@ -185,7 +185,17 @@ website: 	http://blankenship.xyz
 	main article h3 {
 		font: 700 1.5rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
- 		margin-bottom: 5rem;
+ 		margin-bottom: 2.5rem;
+	}
+
+	main article nav {
+		font: 400 .8rem/1.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		text-transform: uppercase;
+		letter-spacing: .02rem;
+	}
+
+	main article nav a {
+		color: #F05A28;
 	}
 
 	main article h5 {
@@ -211,85 +221,6 @@ website: 	http://blankenship.xyz
 
 		@media (min-width: 100px) and (max-width: 600px) {
 
-		main {
-		padding: 0 5vw;
-		width: 100vw;		
-		}
-
-		header {
-			width: 90vw;
-		}
-
-		header nav,
-		header section {
-			display: block;
-		}
-
-		header nav { 
-			height: 4rem;
-			margin-bottom: 4rem;
-			padding:  2rem 0;
-		}
-
-		header section {
-			margin-bottom:  2rem;
-			padding:  2rem 0;
-		}
-
-		h2 {
-			font: 400 2.75rem/2.75rem -apple-system, BlinkMacSystemFont, sans-serif;
-		}
-
-	 	h2 span { display: inline; }
-
-
-		main figure img { 
-			border-radius: 0;
-			box-shadow: none;	
-		}
-
-		.uno {
-			margin-bottom: 5vw;
-		}
-		
-		footer {
-			padding: 5vw;
-		}
-
-		footer section {
-			display: block;
-		    margin-bottom: 10vw;
-		}
-
-		footer section img { 
-			width: 50%;
-		}
-
-		footer p { 
-			margin-bottom: 1rem;
-			padding-right: 0;
-		}
-
-		h4 { 
-			font: 400 1.75rem/1.75rem -apple-system, BlinkMacSystemFont, sans-serif;
-	 		letter-spacing: -.075rem;
-	 		margin-bottom: 1rem;
-		}
-
-		footer h4.lite { color: #FEF9F3; }
-
-		footer h5 {
-			font: 300 1rem/1rem "IBMPlexMono", monospace;
-	 	}
-
-	 	footer section#copyright {
-	 		display: grid;
-	 	    grid-template-columns: 50% 50%;
-	 	}
-
-		footer section#copyright h5 {
-				font: 300 .6rem/.6rem "IBMPlexMono", monospace;
-		 	}
 
 		}
 

@@ -111,6 +111,10 @@ website: 	http://blankenship.xyz
 		padding: 4rem;	
 	}
 
+	main article h5 {
+		margin-top: 4rem;
+	}
+
 /* SECTION -- COLORS */
 
 .light 	{ background-color: #FFF; }

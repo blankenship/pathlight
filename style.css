@@ -170,6 +170,10 @@ website: 	http://blankenship.xyz
 		margin-bottom: 2rem;
  	}
 
+	p a {
+		color: #F05A28;
+	}
+
 	code { 
 		background: #2d2d2d;
 		border-radius: 5px;

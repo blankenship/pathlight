@@ -29,6 +29,10 @@ website: 	http://blankenship.xyz
     	font-size: 16px;
 	}
 
+	ul {
+	    list-style-type: none;
+	}
+
 	@media(min-width:700px) {
 	    html {
 	        font-size: 16px
@@ -48,67 +52,41 @@ website: 	http://blankenship.xyz
 	}
 
 	body {
-		color:  #1D1E21;
+		color:  #eee;
 		margin:  0 auto;
 		padding: 0;
 		max-width: 2000px;
 		min-height: 100vh;
 	}
 
-	main {
-	    background: #FEF9F3;
-    	margin: 0 auto;
-		padding: 0 15% 4rem;
-		width: 100vw;		
-	}
-
 	header {
+	}
+
+	header nav {}
+
+	header nav ul {}
+
+	header section {
+		background: #1D1D1D;
 		margin: 0 auto;
-		width: 70vw;
-	}
-
-	header nav,
-	header section {
+		padding: 1rem 10vw;
 		display: grid;
-	    grid-template-columns: 75% 25%;
+	    grid-template-columns: 45% 45%;
+	    grid-gap: 10%;
 	}
 
-	header nav { 
-		height: 4rem;
-		margin-bottom: 4rem;
-		padding:  2rem 0;
+	header section h1 {
+		color: #F05A28;
+		font: 800 2rem/2rem Zuume, sans-serif;
 	}
 
-	header section {
-		margin-bottom:  2rem;
-		padding:  2rem 0;
-	}
-
-	main figure img { 
-		border-radius: 4px;
-		box-shadow: 0 0.938em 2.188em rgba(50,50,93,.1), 0 0.313em 0.938em rgba(0,0,0,.07);	
-		width: 100%;
-	}
-
-
-
-/* TYPOGRAPHY */
-
-	ul {
-	    list-style-type: none;
-	}
-
-	h1 { 
-		font: 800 2rem/2rem -apple-system, BlinkMacSystemFont, sans-serif;
+	header section h2 {
+		color: #EEE;
+		font: 400 1rem/1rem Inter, sans-serif;
  		letter-spacing: -.075rem;
 	}
-
-	h2 {
-		font: 400 4rem/4rem -apple-system, BlinkMacSystemFont, sans-serif;
- 		letter-spacing: -.2rem;
- 	}
-
- 	h2 span { display: block; }
+	
+/* TYPOGRAPHY */
 
   	h3,
   	h5 {
@@ -141,76 +119,6 @@ website: 	http://blankenship.xyz
 	    margin-bottom: 5rem;
 	}
 
-	footer section img { 
-		width: 15%;
-	}
-
-	footer h4 {
-		color:  #666;
-		font: 400 1.25rem/1.25rem -apple-system, BlinkMacSystemFont, sans-serif;
-	}
-
-	footer h5 {
-		color:  #666;
-		padding: 0;
-	}
-
-	footer a { color: inherit; }
-
-	footer p { 
-		color: #FEF9F3;
-		padding-right: 3rem;
-	}
-
-	section.rule { 
-		border-top: 2px solid #444; 
-		padding-top: 2rem;
-	}
-	
-	footer section#copyright {
- 		display: grid;
- 	    grid-template-columns: 75% 25%;
- 	}
-
-	/* ANIMATION */
-
-	main ul {
-		position: relative;
-	}
-
-	main ul li:nth-child(even) {
-		position: absolute;
-		top: 0;
-	}
-
-	.uno {
-		margin-bottom: 5rem;
-	}
-
-	.dos {
-		animation-name: crossfade;
-		animation-timing-function: ease-in-out;
-		animation-iteration-count: infinite;
-		animation-delay: 3s;
-		animation-duration: 3s;
-		animation-direction: alternate;
-		width: 100%;
-	}
-
-	@keyframes crossfade {
-		0% {
-			opacity: 1;
-		}
-		25% {
-			opacity: 1;
-		}
-		75% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 0;
-		}
-	}
 
 
 /* WEE SCREENS */

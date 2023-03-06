@@ -190,10 +190,12 @@ website: 	http://blankenship.xyz
 	}
 
 	main article h5 {
-		color: #9D9D9D;
+		background-color: #DDD;		
+		border-radius: 5px;
 		font: 700 1.25rem/1.25rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
  		margin: 3rem 0 1.5rem;
+ 		padding: .25rem;
 	}
 
 	main article nav p {

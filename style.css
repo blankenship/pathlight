@@ -52,7 +52,7 @@ website: 	http://blankenship.xyz
 	}
 
 	body {
-		background-color:  #eee;
+		background-color: #eee;
 		color: #1D1D1D;
 		font-family: 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		margin:  0 auto;
@@ -72,7 +72,7 @@ website: 	http://blankenship.xyz
 
 	header nav ul li {
 		display: inline;
-		padding-left: 5rem;
+		padding-left: 2rem;
 	}
 
 	section {
@@ -82,9 +82,7 @@ website: 	http://blankenship.xyz
 
 	header nav ul {}
 
-	header section {
-		background: #1D1D1D;
-	}
+	header div {}
 
 	header div section {
 		padding: 4rem 0;
@@ -104,6 +102,13 @@ website: 	http://blankenship.xyz
 		font: 400 1rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
 	}
+
+
+/* SECTION -- COLORS */
+
+.light 	{ background-color: #FFF; }
+.dark	{ background-color: #1D1D1D }
+
 
 /* SECTION -- FOOTER */
 	

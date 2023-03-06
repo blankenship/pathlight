@@ -177,13 +177,13 @@ website: 	http://blankenship.xyz
 	}
 
 	main article h3 {
-		font: 700 1.5rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
- 		letter-spacing: -.075rem;
-	}
-
-	main article h4 {
 		font: 400 2rem/2rem 'Zuume', sans-serif;
  		margin: 2rem 0 0;
+	}
+	
+	main article h4 {
+		font: 700 1.5rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+ 		letter-spacing: -.075rem;
 	}
 
 	main article h5 {

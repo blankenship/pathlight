@@ -53,6 +53,7 @@ website: 	http://blankenship.xyz
 
 	body {
 		color:  #eee;
+		font-family: 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		margin:  0 auto;
 		padding: 0;
 		max-width: 2000px;
@@ -78,11 +79,12 @@ website: 	http://blankenship.xyz
 	header section h1 {
 		color: #F05A28;
 		font: 800 2rem/2rem Zuume, sans-serif;
+		text-transform: uppercase;
 	}
 
 	header section h2 {
 		color: #EEE;
-		font: 400 1rem/1rem Inter, sans-serif;
+		font: 400 1rem/1rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.075rem;
 	}
 	

@@ -166,7 +166,8 @@ website: 	http://blankenship.xyz
 	}
 
   	p {
-		font: 400 1rem/2.5rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
+		font: 400 1.15rem/2rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
+		margin-bottom: 2rem;
  	}
 
 	code { 

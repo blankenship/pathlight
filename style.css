@@ -183,7 +183,7 @@ website: 	http://blankenship.xyz
 
 	main article h4 {
 		font: 400 2rem/2rem 'Zuume', sans-serif;
- 		margin: 4rem 0 0;
+ 		margin: 2rem 0 0;
 	}
 
 	main article h5 {
@@ -201,7 +201,7 @@ website: 	http://blankenship.xyz
 	main article nav p {
 		font: 700 .8rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		text-transform: uppercase;
-		letter-spacing: .05rem;
+		letter-spacing: .075rem;
 	}
 
 	main article nav a {

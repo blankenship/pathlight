@@ -109,19 +109,17 @@ website: 	http://blankenship.xyz
 
 /* TYPOGRAPHY */
 
-  	h3,
-  	h5 {
-		font: 300 .9rem/1.25rem "IBMPlexMono", monospace;
-		padding-top: .875rem;
- 	}
+	h3 {
+		font: 700 1rem/1rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+	}
 
-	h4 { 
-		font: 400 1.5rem/1.5rem -apple-system, BlinkMacSystemFont, sans-serif;
- 		letter-spacing: -.075rem;
+	h4 {
+		font: 800 1rem/1rem Zuume, sans-serif;
+		text-transform: uppercase;
 	}
 
   	p {
-		font: 300 .8rem/1.25rem "IBMPlexMono", monospace;
+		font: 400 .9rem/1.25rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  	}
 
 

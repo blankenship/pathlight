@@ -66,7 +66,7 @@ website: 	http://blankenship.xyz
 	header nav {
 		max-width: 1200px;
 		margin: 0 auto;
-	    grid-template-columns: 30% 70%;
+	    grid-template-columns: 30% 60%;
 	    padding: 4rem 0;
 	}
 
@@ -80,7 +80,18 @@ website: 	http://blankenship.xyz
 		margin: 0 auto;
 	}
 
-	header nav ul {}
+	header nav ul {
+		font: 700 1rem/2.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+	}
+
+	header nav ul li a { 
+		color: #1D1D1D;
+		text-decoration: none; 
+	}
+
+	header nav ul li.active a { 
+		color: #F05A28;
+	}
 
 	header div {}
 

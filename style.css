@@ -73,11 +73,13 @@ website: 	http://blankenship.xyz
 	}
 
 	header nav h1 {
+		background: yellow;
 		font: 800 2rem/2rem 'Zuume', sans-serif;
 		text-transform: uppercase;
 	}
 
 	header nav ul {
+		background: red;
 		font: 700 1rem/1rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 	}
 

@@ -342,13 +342,13 @@ website: 	http://blankenship.xyz
 			header nav {
 				max-width: 100vw;
 			    display: grid;
-			    grid-template-columns: 30% 70%;
-			    grid-gap: 0;
+			    grid-template-columns: 30% 60%;
+			    grid-gap: 10%;
 			    padding: 2rem 5vw;
 			}
 
 			header img {
-				width: 10em;
+				width: 15em;
 			}
 
 			header nav ul {

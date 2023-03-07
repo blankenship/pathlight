@@ -327,12 +327,7 @@ website: 	http://blankenship.xyz
 
 /* WEE SCREENS */
 
-		@media (min-width: 801px) and (max-width: 1000px) {
-
-
-		}
-
-		@media (min-width: 100px) and (max-width: 600px) {
+		@media (min-width: 100px) and (max-width: 800px) {
 
 			body {
 				background: linear-gradient(90deg, #EDEDED 24px, transparent 1%) center, linear-gradient(#EDEDED 24px, transparent 1%) center, #9D9D9D;

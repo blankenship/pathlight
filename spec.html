@@ -63,8 +63,10 @@
 
 			<p>Podcast feeds utilize RSS 2.0 tags and require extensions from three namespaces (itunes, podcast, and atom). These namespace declarations must be made in the opening of your XML.</p>
 
-			<code>1 | ?xml version="1.0" encoding="UTF-8"?
-			2 |   rss version="2.0" xmlns:itunes="<a href="http://www.itunes.com/dtds/podcast-1.0.dtd" target="_blank">http://www.itunes.com/dtds/podcast-1.0.dtd</a>" xmlns:podcast="<a href="https://podcastindex.org/namespace/1.0" target="_blank">https://podcastindex.org/namespace/1.0</a>" xmlns:atom="<a href="http://www.w3.org/2005/Atom" target="_blank">http://www.w3.org/2005/Atom</a>"</code>
+			<code>
+				1 | <?xml version="1.0" encoding="UTF-8"?>
+				2 |   <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom">
+			</code>
 
 			<h3>HTML and Link Support (optional)</h3>
 

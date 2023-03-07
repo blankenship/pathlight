@@ -296,7 +296,7 @@ website: 	http://blankenship.xyz
 /* MEMBERS LIST */
 
 	.memberslist h3 {
-		font: 400 2.5rem/2.5rem 'Zuume', sans-serif;
+		font: 800 4rem/4rem 'Zuume', sans-serif;
 	}
 
 	.memberslist ul li {
@@ -307,6 +307,7 @@ website: 	http://blankenship.xyz
 	.memberslist ul li p strong {
 		font: 700 2rem/1.5rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
  		letter-spacing: -.09rem;
+ 		margin-bottom: 0;
 	}
 
 /* FAQ */

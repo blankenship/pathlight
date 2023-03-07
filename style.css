@@ -122,10 +122,6 @@ website: 	http://blankenship.xyz
 		font: 800 8rem/6rem 'Zuume', sans-serif;
 		text-transform: uppercase;
 	}
-
-	header div section h1 em {
-		font-style: italic;
-	}
 	
 	header div section h2 {
 		color: #EDEDED;

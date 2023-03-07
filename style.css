@@ -104,8 +104,6 @@ website: 	http://blankenship.xyz
 		margin: 0 auto;
 	}
 
-	
-
 	header div {}
 
 	header div section {
@@ -128,7 +126,6 @@ website: 	http://blankenship.xyz
 
 	main article {
 		background: #fff;
-		border-radius: 5px;
 		box-shadow: 0 0.938em 2.188em rgba(50,50,50,.1), 0 0.313em 0.938em rgba(0,0,0,.07);	
 		max-width: 1200px;
 		margin: 4rem auto;	
@@ -137,8 +134,15 @@ website: 	http://blankenship.xyz
 
 /* SECTION -- COLORS */
 
-.light 	{ background-color: #FFF; }
-.dark	{ background-color: #1D1D1D }
+.light 	{ 
+	background-color: #FFF; 
+	box-shadow: 0 0.938em 2.188em rgba(50,50,50,.1), 0 0.313em 0.938em rgba(0,0,0,.07);	
+}
+
+.dark	{ 
+	background-color: #1D1D1D 
+	box-shadow: 0 0.938em 2.188em rgba(50,50,50,.1), 0 0.313em 0.938em rgba(0,0,0,.07);	
+}
 
 
 /* SECTION -- MAIN */

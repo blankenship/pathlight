@@ -121,10 +121,9 @@ website: 	http://blankenship.xyz
 	}
 
 	header div section h2 {
-		display: inline-block;
+		align-self: end;
 		color: #EDEDED;
 		font: 400 1.15rem/2rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
-    	vertical-align: bottom;
 	}
 
 	header div section img { 

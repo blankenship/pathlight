@@ -63,25 +63,26 @@
 
 			<p>Podcast feeds utilize RSS 2.0 tags and require extensions from three namespaces (itunes, podcast, and atom). These namespace declarations must be made in the opening of your XML.</p>
 
-			<code>
-				1 | <?xml version="1.0" encoding="UTF-8"?>
-				2 |   <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom">
-			</code>
+			<pre><code>
+				1 | &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+				2 | &lt;rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom"&gt;
+			</code></code>
 
 			<h3>HTML and Link Support (optional)</h3>
 
 			<p>To include HTML in your podcast feed, you must also declare the RDF Site Summary 1.0 Content Module Specification namespace in the second line of your XML.</p>
 
-			<code>1 | ?xml version="1.0" encoding="UTF-8"?
-			2 |  rss version="2.0" xmlns:itunes="<a href="http://www.itunes.com/dtds/podcast-1.0.dtd" target="_blank">http://www.itunes.com/dtds/podcast-1.0.dtd</a>" xmlns:podcast="<a href="https://podcastindex.org/namespace/1.0" target="_blank">https://podcastindex.org/namespace/1.0</a>" xmlns:atom="<a href="http://www.w3.org/2005/Atom" target="_blank">http://www.w3.org/2005/Atom</a>" xmlns:content="<a href="http://purl.org/rss/1.0/modules/content/" target="_blank">http://purl.org/rss/1.0/modules/content/</a>"</code>
+			<pre><code>
+				1 | ?xml version="1.0" encoding="UTF-8"?
+				2 |  rss version="2.0" xmlns:itunes="<a href="http://www.itunes.com/dtds/podcast-1.0.dtd" target="_blank">http://www.itunes.com/dtds/podcast-1.0.dtd</a>" xmlns:podcast="<a href="https://podcastindex.org/namespace/1.0" target="_blank">https://podcastindex.org/namespace/1.0</a>" xmlns:atom="<a href="http://www.w3.org/2005/Atom" target="_blank">http://www.w3.org/2005/Atom</a>" xmlns:content="<a href="http://purl.org/rss/1.0/modules/content/" target="_blank">http://purl.org/rss/1.0/modules/content/</a>"</code></pre>
 
 			<p>With the RDF Site Summary 1.0 Content Module Specification namespace included, you can enclose all portions of your XML that contain embedded HTML in a CDATA section to prevent formatting issues and to ensure proper link functionality.</p>
 
-			<code>![CDATA[
+			<pre><code>![CDATA[
 
 			  a href="<a href="https://www.podstandards.org/" target="_blank">https://www.podstandards.org</a>"The Podcast Standards Project/a
 
-			]]</code>
+			]]</code></pre>
 
 			<p>Namespace definitions are case-sensitive and must be entered as shown.</p>
 
@@ -108,7 +109,7 @@
 				<h5>atom:link rel="self"</h5>
 				<p>The declared canonical feed URL for the podcast.</p>
 
-				<code>atom:link href="<a href="https://www.podstandards.org/my-podcast.rss" target="_blank">https://www.podstandards.org/my-podcast.rss</a>" rel="self" type="application/rss+xml" /</code>
+				<pre><code>atom:link href="<a href="https://www.podstandards.org/my-podcast.rss" target="_blank">https://www.podstandards.org/my-podcast.rss</a>" rel="self" type="application/rss+xml" /</code></pre>
 			</span>
 
 
@@ -116,7 +117,7 @@
 				<h5>title</h5>
 				<p>The podcast title. A string containing the name of a podcast and nothing else.</p>
 
-				<code>titleSample Podcast Title/title</code>
+				<pre><code>titleSample Podcast Title/title</code></pre>
 
 				<p>* <em>Including keywords in an attempt to improve a podcast's search ranking, may result in being blocked from certain directories.</em></p>
 			</span>
@@ -126,11 +127,11 @@
 				<h5>description</h5>
 				<p>Text that describes a podcast to potential listeners. </p>
 
-				<code>description![CDATA[Sample podcast description.]]/description</code>
+				<pre><code>description![CDATA[Sample podcast description.]]/description</code></pre>
 
 				<p>or</p>
 
-				<code>descriptionSample podcast description./description</code>
+				<pre><code>descriptionSample podcast description./description</code></pre>
 
 				<p>The maximum amount of text allowed for this tag is 4,000 bytes.</p>
 			</span>
@@ -140,7 +141,7 @@
 				<h5>language</h5>
 				<p>The language that is spoken on the podcast, specified in the <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">ISO 639</a> format.</p>
 
-				<code>languageen-us/language</code>
+				<pre><code>languageen-us/language</code></pre>
 			</span>
 
 
@@ -148,10 +149,10 @@
 				<h5>itunes:category</h5>
 				<p>The category that best fits a podcast, selected from the list of <a href="https://podcasters.apple.com/support/1691-apple-podcasts-categories" target="_blank">Apple Podcasts categories</a>.</p>
 
-				<code>1 | itunes:category text="News"
+				<pre><code>1 | itunes:category text="News"
 				2 |   itunes:category text="Tech News" /
 				3 | /itunes:category
-				4 | itunes:category text="Technology" /</code>
+				4 | itunes:category text="Technology" /</code></pre>
 
 				<p>Multiple category selections are permitted. Categories should be listed in order of priority.</p>
 			</span>
@@ -160,7 +161,7 @@
 				<h5>itunes:explicit</h5>
 				<p>The parental advisory information for a podcast.</p>
 
-				<code>itunes:explicitfalse/itunes:explicit</code>
+				<pre><code>itunes:explicitfalse/itunes:explicit</code></pre>
 
 				<p>The value can be <strong>true</strong>, indicating the presence of explicit content, or <strong>false</strong>, indicating that a podcast doesn’t contain explicit language or adult content.</p>
 			</span>
@@ -169,7 +170,7 @@
 				<h5>itunes:image</h5>
 				<p>The artwork for the podcast, specified by providing a URL linking to it.</p>
 
-				<code>itunes:image href="<a href="https://www.podstandards.org/podcast/artwork.jpg" target="_blank">https://www.podstandards.org/podcast/artwork.jpg</a>" /</code>
+				<pre><code>itunes:image href="<a href="https://www.podstandards.org/podcast/artwork.jpg" target="_blank">https://www.podstandards.org/podcast/artwork.jpg</a>" /</code></pre>
 
 				<p>Verify the web server hosting your image allows HTTP head requests.</p>
 
@@ -182,11 +183,13 @@
 				<h5>image</h5>
 				<p>The artwork for the podcast, specified by providing a URL linking to it. A redundant image tag that better facilitates open standards.</p>
 
-				<code>1 | image
-				2 |   link<a href="https://www.podstandards.org/podcast/artwork.jpg" target="_blank">https://www.podstandards.org/podcast/artwork.jpg</a>/link
-				3 |   titleThe Podcast Standards Project/title
-				4 |   url<a href="https://www.podstandards.org/" target="_blank">https://www.podstandards.org</a>/url
-				5 | /image</code>
+				<pre><code>
+					1 | image
+					2 |   link<a href="https://www.podstandards.org/podcast/artwork.jpg" target="_blank">https://www.podstandards.org/podcast/artwork.jpg</a>/link
+					3 |   titleThe Podcast Standards Project/title
+					4 |   url<a href="https://www.podstandards.org/" target="_blank">https://www.podstandards.org</a>/url
+					5 | /image
+				</code></pre>
 
 				<p>Verify the web server hosting your image allows HTTP head requests.</p>
 
@@ -197,18 +200,18 @@
 				<h5>link</h5>
 				<p>The website or web page associated with a podcast.</p>
 
-				<code>link<a href="https://www.podstandards.org/" target="_blank">https://www.podstandards.org</a>/link</code>
+				<pre><code>link<a href="https://www.podstandards.org/" target="_blank">https://www.podstandards.org</a>/link</code></pre>
 
 				<p>or</p>
 
-				<code>link<a href="https://www.podstandards.org/podcast" target="_blank">https://www.podstandards.org/podcast</a>/link</code>
+				<pre><code>link<a href="https://www.podstandards.org/podcast" target="_blank">https://www.podstandards.org/podcast</a>/link</code></pre>
 			</span>
 
 			<span>
 				<h5>podcast:locked</h5>
 				<p>Tells podcast hosting platforms whether they are allowed to import this feed.</p>
 
-				<code>podcast:lockedyes/podcast:locked</code>
+				<pre><code>podcast:lockedyes/podcast:locked</code></pre>
 
 				<p>A value of <strong>yes</strong> means that import attempts should be rejected. A value of <strong>no</strong> means the feed can be imported.</p>
 			</span>
@@ -217,7 +220,7 @@
 				<h5><strong>itunes:author</strong></h5>
 				<p>The group, person, or people responsible for creating the podcast.</p>
 
-				<code>itunes:authorDallas Times-Herald/itunes:author</code>
+				<pre><code>itunes:authorDallas Times-Herald/itunes:author</code></pre>
 			</span>
 
 			<h4><a name="channelsituational">Situational Channel Elements</a></h4>
@@ -226,7 +229,7 @@
 				<h5><strong></strong>copyright<strong></strong></h5>
 				<p>The copyright details for a podcast.</p>
 
-				<code>copyrightThe Podcast Standards Project/copyright</code>
+				<pre><code>copyrightThe Podcast Standards Project/copyright</code></pre>
 
 				<p>Should not include the word "Copyright", the © symbol, and/or a year.</p>
 			</span>
@@ -235,18 +238,18 @@
 				<h5>podcast:funding</h5>
 				<p><br>Lists donation/funding links for the podcast. The content of the tag is the recommended string to be used with the link.</p>
 
-				<code>podcast:funding url="<a href="https://www.podstandards.org/support" target="_blank">https://www.podstandards.org/support</a>"Support/podcast:funding</code>
+				<pre><code>podcast:funding url="<a href="https://www.podstandards.org/support" target="_blank">https://www.podstandards.org/support</a>"Support/podcast:funding</code></pre>
 			</span>
 
 			<span>
 				<h5><strong>itunes:type</strong></h5>
 				<p><br>Specifies the podcast as either <strong>episodic</strong> or <strong>serial</strong>.</p>
 
-				<code>itunes:typeepisodic/itunes:type</code>
+				<pre><code>itunes:typeepisodic/itunes:type</code></pre>
 
 				<p>or</p>
 
-				<code>itunes:typeserial/itunes:type</code>
+				<pre><code>itunes:typeserial/itunes:type</code></pre>
 
 				<p>Episodic is the default and assumed if this element is not present. This element is required for serial podcasts.</p>
 			</span>
@@ -255,7 +258,7 @@
 				<h5><strong>itunes:complete<br></strong></h5>
 				<p>Specifies that a podcast is complete and will not post any more episodes in the future.</p>
 
-				<code>itunes:completeyes/itunes:complete</code>
+				<pre><code>itunes:completeyes/itunes:complete</code></pre>
 
 				<p>The only valid value for this element is <strong>yes</strong>. All other values will be ignored.</p>
 			</span>
@@ -271,7 +274,7 @@
 				<h5><strong>title</strong></h5>
 				<p><br>The title for the podcast episode.</p>
 
-				<code>titleWhy podcasts standards are important/title</code>
+				<pre><code>titleWhy podcasts standards are important/title</code></pre>
 
 				<p>The title value is a string containing a concise name for your episode. Title values should not include season or episode numbers, as there are specific elements to capture those values.</p>
 			</span>
@@ -280,7 +283,7 @@
 				<h5><strong>enclosure</strong></h5>
 				<p><strong><br></strong>The audio/video episode content, file size, and file type information.</p>
 
-				<code>enclosure length="24986" type="audio/mpeg" url="<a href="https://www.podstandards.org/episode_123.mp3" target="_blank">https://www.podstandards.org/episode_123.mp3</a>" /</code>
+				<pre><code>enclosure length="24986" type="audio/mpeg" url="<a href="https://www.podstandards.org/episode_123.mp3" target="_blank">https://www.podstandards.org/episode_123.mp3</a>" /</code></pre>
 
 				<p>The element MUST have three attributes: The <strong>length</strong> in bytes, the MIME media <strong>type</strong>(audio/mpeg, audio/x-m4a, video/quicktime, video/mp4, video/x-m4v), and the <strong>URL</strong> of the file. Supported file formats include MP3 (recommended), M4A, MOV, MP4, and M4V.</p>
 			</span>
@@ -289,7 +292,7 @@
 				<h5><strong>guid<br></strong></h5>
 				<p>The globally unique identifier (<a href="https://cyber.harvard.edu/rss/rss.html#ltguidgtSubelementOfLtitemgt" target="_blank">GUID</a>) for a podcast episode.</p>
 
-				<code>guid isPermaLink="false"podcast-12345678/guid</code>
+				<pre><code>guid isPermaLink="false"podcast-12345678/guid</code></pre>
 
 				<p>Each episode must have a unique GUID that never changes. Values are case-sensitive strings.</p>
 			</span>
@@ -300,7 +303,7 @@
 				<h5><strong>link</strong></h5>
 				<p><strong><br></strong>The URL of a web page associated with the podcast episode.</p>
 
-				<code>link<a href="https://www.podstandards.org/1983/05/06/post.html" target="_blank">https://www.podstandards.org/1983/05/06/post.html</a>/link</code>
+				<pre><code>link<a href="https://www.podstandards.org/1983/05/06/post.html" target="_blank">https://www.podstandards.org/1983/05/06/post.html</a>/link</code></pre>
 
 				<p>Useful when an episode has a corresponding webpage.</p>
 			</span>
@@ -309,7 +312,7 @@
 				<h5><strong>pubDate</strong></h5>
 				<p><strong><br></strong>The release date and time of an episode.</p>
 
-				<code>pubDateFri, 26 Feb 2021 00:00:00 -0500/pubDate</code>
+				<pre><code>pubDateFri, 26 Feb 2021 00:00:00 -0500/pubDate</code></pre>
 
 				<p>Values must use the <a href="http://www.faqs.org/rfcs/rfc2822.html" target="_blank">RFC 2822</a> specifications.</p>
 			</span>
@@ -318,11 +321,11 @@
 				<h5><strong>description</strong></h5>
 				<p><strong><br></strong>The description of the podcast episode.</p>
 
-				<code>descriptionSample episode description./description</code>
+				<pre><code>descriptionSample episode description./description</code></pre>
 
 				<p>or</p>
 
-				<code>description![CDATA[pSample episode description./p]]/description</code>
+				<pre><code>description![CDATA[pSample episode description./p]]/description</code></pre>
 
 				<p>The maximum amount of text allowed for this tag is 4000 bytes. Some HTML is permitted (<code>p, ol, ul, li, a, b, i, strong, em</code>) if wrapped in the <code>CDATA</code> tag.</p>
 			</span>
@@ -331,14 +334,14 @@
 				<h5><strong>itunes:duration<br></strong></h5>
 				<p>The duration of a podcast episode in seconds.</p>
 
-				<code>itunes:duration1801/itunes:duration</code>
+				<pre><code>itunes:duration1801/itunes:duration</code></pre>
 			</span>
 
 			<span>
 				<h5><strong>itunes:image<br></strong></h5>
 				<p>The episode-specific artwork.</p>
 
-				<code>itunes:image href="<a href="https://www.podstandards.org/podcast/episode/1/artwork.jpg" target="_blank">https://www.podstandards.org/podcast/episode/1/artwork.jpg</a>" /</code>
+				<pre><code>itunes:image href="<a href="https://www.podstandards.org/podcast/episode/1/artwork.jpg" target="_blank">https://www.podstandards.org/podcast/episode/1/artwork.jpg</a>" /</code></pre>
 
 				<p>Verify the web server hosting your image allows HTTP head requests.</p>
 
@@ -349,11 +352,11 @@
 				<h5><strong>itunes:explicit<br></strong></h5>
 				<p>The parental advisory information for a podcast episode.</p>
 
-				<code>itunes:explicittrue/itunes:explicit</code>
+				<pre><code>itunes:explicittrue/itunes:explicit</code></pre>
 
 				<p>or</p>
 
-				<code>itunes:explicitfalse/itunes:explicit</code>
+				<pre><code>itunes:explicitfalse/itunes:explicit</code></pre>
 
 				<p>The value can be <strong>true</strong>, indicating the presence of explicit content, or <strong>false</strong>, indicating that a podcast doesn’t contain explicit language or adult content.</p>
 			</span>
@@ -362,13 +365,13 @@
 				<h5><strong>podcast:transcript<br></strong></h5>
 				<p>A link to a transcript or closed captions file. Multiple tags can be present for multiple formats.</p>
 
-				<code>1 | podcast:transcript url="<a href="https://www.podstandards.org/episode1/transcript.html" target="_blank">https://www.podstandards.org/episode1/transcript.html</a>" type="text/html" /
+				<pre><code>1 | podcast:transcript url="<a href="https://www.podstandards.org/episode1/transcript.html" target="_blank">https://www.podstandards.org/episode1/transcript.html</a>" type="text/html" /
 
 				2 | podcast:transcript url="<a href="https://www.podstandards.org/episode1/transcript.srt" target="_blank">https://www.podstandards.org/episode1/transcript.srt</a>" type="application/x-subrip" rel="captions" /
 
 				3 | podcast:transcript url="<a href="https://www.podstandards.org/episode1/transcript.vtt" target="_blank">https://www.podstandards.org/episode1/transcript.vtt</a>" type="text/vtt" /
 
-				4 | podcast:transcript url="<a href="https://www.podstandards.org/episode1/transcript.json" target="_blank">https://www.podstandards.org/episode1/transcript.json</a>" type="application/json" language="es" rel="captions" /</code>
+				4 | podcast:transcript url="<a href="https://www.podstandards.org/episode1/transcript.json" target="_blank">https://www.podstandards.org/episode1/transcript.json</a>" type="application/json" language="es" rel="captions" /</code></pre>
 
 				<p>Must contain two attributes: The <strong>URL</strong> of the podcast transcript, and the <strong>type</strong> (text/plain, <a href="https://github.com/Podcastindex-org/podcast-namespace/blob/main/transcripts/transcripts.md#html" target="_blank">text/html</a>, <a href="https://github.com/Podcastindex-org/podcast-namespace/blob/main/transcripts/transcripts.md#webvtt" target="_blank">text/vtt</a>, <a href="https://github.com/Podcastindex-org/podcast-namespace/blob/main/transcripts/transcripts.md#json" target="_blank">application/json</a>, <a href="https://github.com/Podcastindex-org/podcast-namespace/blob/main/transcripts/transcripts.md#srt" target="_blank">application/x-subrip</a>).<br></p>
 			</span>
@@ -379,7 +382,7 @@
 				<h5>itunes:episode</h5> 
 				<p>The chronological number that is associated with a podcast episode.</p>
 
-				<code>itunes:episode46/itunes:episode</code>
+				<pre><code>itunes:episode46/itunes:episode</code></pre>
 
 				<p>Must be a non-zero integer. This is required for serial podcasts.</p>
 			</span>
@@ -388,7 +391,7 @@
 				<h5>itunes:season</h5> 
 				<p>The chronological number associated with a podcast episode's season.</p>
 
-				<code>itunes:season2/itunes:season</code>
+				<pre><code>itunes:season2/itunes:season</code></pre>
 
 				<p>Must be a non-zero integer.</p>
 			</span>
@@ -397,7 +400,7 @@
 				<h5>itunes:episodeType</h5> 
 				<p>Defines the type of content for a specific podcast episode.</p>
 
-				<code>itunes:episodeTypefull/itunes:episodeType</code>
+				<pre><code>itunes:episodeTypefull/itunes:episodeType</code></pre>
 
 				<p><strong>Full</strong> (assumed if absent): A complete podcast episode.</p>
 
@@ -410,7 +413,7 @@
 				<h5>itunes:block</h5> 
 				<p>Prevents a specific episode from appearing in podcast listening applications.</p>
 
-				<code>itunes:blockyes/itunes:block</code>
+				<pre><code>itunes:blockyes/itunes:block</code></pre>
 
 				<p>The only valid value for this element is <strong>yes</strong>. All other values will be ignored.</p>
 		</article>				

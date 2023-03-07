@@ -128,6 +128,10 @@ website: 	http://blankenship.xyz
 		font: 400 1.15rem/2rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
 	}
 
+	header div section img { 
+		width: 100%; 
+	}
+
 	main article {
 		background: #fff;
 		box-shadow: 0 0.938em 2.188em rgba(50,50,50,.1), 0 0.313em 0.938em rgba(0,0,0,.07);	

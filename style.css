@@ -53,6 +53,8 @@ website: 	http://blankenship.xyz
 
 	body {
 		background-color: #eee;
+		border-top: 10px solid F05A28;
+		border-bottom: 10px solid F05A28;
 		color: #1D1D1D;
 		font-family: 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		margin:  0 auto;

@@ -347,13 +347,13 @@ website: 	http://blankenship.xyz
 			}
 
 			header nav ul {
-				font: 700 1rem/1rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
+				font: 700 1.5rem/1.5rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
 				letter-spacing: -.075rem;
 			}
 
 			header nav ul li {
 				display: block;
-				margin-bottom: 1rem;
+				margin-bottom: .5rem;
 				padding-right: 0;
 			}
 

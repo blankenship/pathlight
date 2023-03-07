@@ -282,7 +282,7 @@ website: 	http://blankenship.xyz
 		font: 400 1rem/1.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		margin-bottom: 1.75rem;
  		letter-spacing: -.025rem;
-}
+	}
 
  	main article p a {
  		color: #F05A28;
@@ -292,6 +292,17 @@ website: 	http://blankenship.xyz
  		height: 4rem; 
  		margin-bottom: 1.75rem;
  	}
+
+/* MEMBERS LIST */
+
+	ul.memberslist li {
+		border-bottom: 1px solid #9D9D9D;
+	}
+
+	ul.memberslist li p strong {
+		font: 700 2rem/2.5rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
+ 		letter-spacing: -.09rem;
+	}
 
 /* FAQ */
 

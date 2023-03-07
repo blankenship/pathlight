@@ -209,9 +209,8 @@ website: 	http://blankenship.xyz
 	pre {
 		white-space: pre-wrap;
 	}
-	
-	}
-	code { 
+
+	pre code { 
 		background: #2d2d2d;
 		border-radius: 5px;
 		color: #ddd;

@@ -120,7 +120,7 @@
 				<h5>&lt;title&gt;</h5>
 				<p>The podcast title. A string containing the name of a podcast and nothing else.</p>
 
-				<pre><code>&lt;titleSample Podcast Title/title&gt;</code></pre>
+				<pre><code>&lt;title&gt;Sample Podcast Title&lt;/title&gt;</code></pre>
 
 				<p>* <em>Including keywords in an attempt to improve a podcast's search ranking, may result in being blocked from certain directories.</em></p>
 			</span>
@@ -130,11 +130,11 @@
 				<h5>&lt;description&gt;</h5>
 				<p>Text that describes a podcast to potential listeners. </p>
 
-				<pre><code>description![CDATA[Sample podcast description.]]/description</code></pre>
+				<pre><code>&lt;description&gt;&lt;![CDATA[Sample podcast description.]]&gt;&lt;/description&gt;</code></pre>
 
 				<p>or</p>
 
-				<pre><code>descriptionSample podcast description./description</code></pre>
+				<pre><code>&lt;description&gt;&lt;Sample podcast description.&gt;&lt;/description&gt;</code></pre>
 
 				<p>The maximum amount of text allowed for this tag is 4,000 bytes.</p>
 			</span>
@@ -144,7 +144,7 @@
 				<h5>&lt;language&gt;</h5>
 				<p>The language that is spoken on the podcast, specified in the <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">ISO 639</a> format.</p>
 
-				<pre><code>languageen-us/language</code></pre>
+				<pre><code>&lt;language&gt;en-us&lt;/language&gt;</code></pre>
 			</span>
 
 
@@ -152,10 +152,11 @@
 				<h5>&lt;itunes:category&gt;</h5>
 				<p>The category that best fits a podcast, selected from the list of <a href="https://podcasters.apple.com/support/1691-apple-podcasts-categories" target="_blank">Apple Podcasts categories</a>.</p>
 
-				<pre><code>1 | itunes:category text="News"
-				2 |   itunes:category text="Tech News" /
-				3 | /itunes:category
-				4 | itunes:category text="Technology" /</code></pre>
+				<pre><code>
+				1 | &lt;itunes:category text="News"&gt;
+				2 | &lt;itunes:category text="Tech News" /&gt;
+				3 | &lt;/itunes:category&gt;
+				4 | &lt;itunes:category text="Technology" /&gt;</code></pre>
 
 				<p>Multiple category selections are permitted. Categories should be listed in order of priority.</p>
 			</span>
@@ -164,7 +165,7 @@
 				<h5>itunes:explicit&gt;</h5>
 				<p>The parental advisory information for a podcast.</p>
 
-				<pre><code>itunes:explicitfalse/itunes:explicit</code></pre>
+				<pre><code>&lt;itunes:explicit&gt;false&lt;/itunes:explicit&gt;</code></pre>
 
 				<p>The value can be <strong>true</strong>, indicating the presence of explicit content, or <strong>false</strong>, indicating that a podcast doesn’t contain explicit language or adult content.</p>
 			</span>
@@ -173,7 +174,9 @@
 				<h5>&lt;itunes:image&gt;</h5>
 				<p>The artwork for the podcast, specified by providing a URL linking to it.</p>
 
-				<pre><code>itunes:image href="<a href="https://www.podstandards.org/podcast/artwork.jpg" target="_blank">https://www.podstandards.org/podcast/artwork.jpg</a>" /</code></pre>
+				<pre><code>
+					&lt;itunes:image 
+					href="<a href="https://www.podstandards.org/podcast/artwork.jpg" target="_blank">https://www.podstandards.org/podcast/artwork.jpg</a>" /&gt;</code></pre>
 
 				<p>Verify the web server hosting your image allows HTTP head requests.</p>
 

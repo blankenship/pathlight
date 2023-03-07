@@ -64,9 +64,6 @@ website: 	http://blankenship.xyz
   		background-size: 25px 25px;
 	}
 
-	header {
-	}
-
 	header nav {
 		max-width: 1200px;
 		margin: 0 auto;
@@ -337,8 +334,74 @@ website: 	http://blankenship.xyz
 
 		@media (min-width: 100px) and (max-width: 600px) {
 
+			body {
+				background: linear-gradient(90deg, #EDEDED 24px, transparent 1%) center, linear-gradient(#EDEDED 24px, transparent 1%) center, #9D9D9D;
+		  		background-size: 25px 25px;
+			}
 
-		}
+			header nav {
+				max-width: 100%;
+			    display: grid;
+			    grid-template-columns: 30% 70%;
+			    grid-gap: 0;
+			    padding: 2rem 0;
+			}
+
+			header img {
+				width: 15em;
+			}
+
+			header nav ul {
+				font: 700 1.25rem/7.25rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
+				letter-spacing: -.075rem;
+			}
+
+			header nav ul li {
+				display: inline;
+				padding-right: 1rem;
+			}
+
+			section {
+				max-width: 100%;
+				margin: 0 auto;
+			}
+
+			header div section {
+				padding: 2rem 0;
+				display: block;
+			}
+
+			header div section h1 {
+				font: 800 8rem/6rem 'Zuume', sans-serif;
+				text-transform: uppercase;
+			}
+			
+			header div section h2 {
+				font: 400 1.15rem/2rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
+			}
+
+			main article {
+				max-width: 100%;
+				margin: -1rem auto 2rem;	
+				padding: 2rem;	
+			}
+			
+			main section {
+				display: block;
+			    padding: 2rem 0;
+			}
+
+			footer section {
+				max-width: 100%;
+				display: block;
+			    padding: 2rem 0;
+			}
+
+			footer ul li {
+				padding-right: .5rem;
+			}
+
+				}
 
 
 /* 2023 */

@@ -340,7 +340,7 @@ website: 	http://blankenship.xyz
 			}
 
 			header nav {
-				max-width: 100%;
+				max-width: 100vw;
 			    display: grid;
 			    grid-template-columns: 30% 70%;
 			    grid-gap: 0;
@@ -348,11 +348,11 @@ website: 	http://blankenship.xyz
 			}
 
 			header img {
-				width: 15em;
+				width: 10em;
 			}
 
 			header nav ul {
-				font: 700 1.25rem/7.25rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
+				font: 700 1rem/1rem 'Inter',-apple-system,BlinkMacSystemFont,Helvetica, sans-serif;
 				letter-spacing: -.075rem;
 			}
 
@@ -362,8 +362,8 @@ website: 	http://blankenship.xyz
 			}
 
 			section {
-				max-width: 100%;
-				margin: 0 auto;
+				max-width: 90vw;
+				margin: 0 5vw;
 			}
 
 			header div section {

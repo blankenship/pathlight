@@ -381,8 +381,8 @@ website: 	http://blankenship.xyz
 			}
 
 			main article {
-				max-width: 100%;
-				margin: -1rem auto 2rem;	
+				max-width: 90vw;
+				margin: 2rem 5vw;	
 				padding: 2rem;	
 			}
 			

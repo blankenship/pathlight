@@ -257,6 +257,7 @@ website: 	http://blankenship.xyz
 	}
 
 	main article p {
+		color: #2D2D2D;
 		font: 400 1rem/1.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		margin-bottom: 1.75rem;
  		letter-spacing: -.025rem;
@@ -282,6 +283,7 @@ website: 	http://blankenship.xyz
 	}
 
 	main article dl dd {
+		color: #2D2D2D;
 		font: 400 1rem/1.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		margin-bottom: 1.75rem;
  	 	letter-spacing: -.075rem;

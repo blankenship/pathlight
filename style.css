@@ -352,8 +352,9 @@ website: 	http://blankenship.xyz
 			}
 
 			header nav ul li {
-				display: inline;
-				padding-right: 1rem;
+				display: block;
+				margin-bottom: 1rem;
+				padding-right: 0;
 			}
 
 			section {

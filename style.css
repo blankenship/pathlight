@@ -399,7 +399,8 @@ website: 	http://blankenship.xyz
 			footer section {
 				max-width: 100%;
 				display: block;
-			    padding: 2rem 0;
+				text-align: center;
+			    padding: 3rem 0;
 			}
 
 			footer ul li {

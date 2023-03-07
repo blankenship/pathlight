@@ -278,7 +278,7 @@ website: 	http://blankenship.xyz
 		border-bottom: 1px solid #CDCDCD;		
 		font: 700 1.25rem/1.25rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
  		letter-spacing: -.025rem;
- 		margin: 0;
+ 		margin-bottom: 1.25rem;
  		padding-bottom: 1rem;
 	}
 
@@ -286,7 +286,7 @@ website: 	http://blankenship.xyz
 		color: #3D3D3D;
 		font: 400 1rem/1.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		margin-bottom: 1.75rem;
- 	 	letter-spacing: -.075rem;
+ 	 	letter-spacing: -.025rem;
  	}
 
 /* WEE SCREENS */

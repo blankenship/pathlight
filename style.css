@@ -270,6 +270,21 @@ website: 	http://blankenship.xyz
  		margin-bottom: 1.75rem;
  	}
 
+/* FAQ */
+
+	main article dl dt {
+		border-bottom: 1px solid #CDCDCD;		
+		font: 700 1.25rem/1.25rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+ 		letter-spacing: -.075rem;
+ 		margin: 0 0 1.5rem;
+ 		padding-bottom: 1rem;
+	}
+
+	main article dl dd {
+		font: 400 1rem/1.5rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		margin-bottom: 1.75rem;
+ 	}
+
 /* WEE SCREENS */
 
 		@media (min-width: 801px) and (max-width: 1000px) {

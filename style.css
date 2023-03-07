@@ -179,6 +179,10 @@ website: 	http://blankenship.xyz
 	    padding: 4rem 0;
 	}
 
+	footer ul li {
+		display: inline;
+		padding-right: 1rem;
+	}
 
 /* TYPOGRAPHY */
 

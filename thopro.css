@@ -66,10 +66,10 @@ website: 	http://blankenship.xyz
 	}
 
 	.vert-grid {
-	  background-size: 20vw 100%;
+	  background-size: 10vw 100%;
 	  background-image: linear-gradient(to right,
 	                                    #333 0%,
-	                                    transparent 5%,
+	                                    transparent 1%,
 	                                    transparent 100%);
 	}
 

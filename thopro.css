@@ -114,6 +114,12 @@ website: 	http://blankenship.xyz
 		width: 20vw;
 	}
 
+	button {
+		background: #f5a92b;
+		color: #222;
+		padding: 2rem;
+	}
+	
 	header div {}
 
 	header div section {

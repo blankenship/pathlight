@@ -82,6 +82,18 @@ website: 	http://blankenship.xyz
 		margin: 0 auto;
 	}
 
+	section h4 {
+		border: 1px solid #f5a92b;
+		color: #f5a92b;
+		padding: 2rem;
+	}
+
+	section ol li {
+		border: 1px solid #333;
+		color: #fff;
+		padding: 2rem;		
+	}
+
 	header div {}
 
 	header div section {

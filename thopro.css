@@ -60,7 +60,7 @@ website: 	http://blankenship.xyz
 	}
 
 	main { 
-		max-width: 1000px; 
+		max-width: 60vw; 
 		margin:  0 auto;
 		padding: 0;
 	}
@@ -73,14 +73,12 @@ website: 	http://blankenship.xyz
 	                                    transparent 100%);
 	}
 
-	header nav h1 {
-	}
-
-	header img {
+	main figure img {
+		width: 100%;
 	}
 
 	section {
-		max-width: 1200px;
+		max-width: 60vw;
 		margin: 0 auto;
 	}
 

@@ -90,10 +90,26 @@ website: 	http://blankenship.xyz
 		width: 10vw;
 	}
 
+	section ol.custom-counter {
+		counter-reset: section;
+	}
+
+	.custom-counter li::before {
+		counter-increment: step-counter;
+		content: counter(step-counter);
+		color: #f5a92b;
+		padding: 2rem;
+	}
+
+	section ol {
+		list-style-type: decimal-leading-zero;
+	}
+
 	section ol li {
 		border: 1px solid #333;
 		color: #fff;
 		padding: 2rem;		
+		width: 10vw;
 	}
 
 	header div {}

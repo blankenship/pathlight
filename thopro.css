@@ -86,6 +86,8 @@ website: 	http://blankenship.xyz
 		border: 1px solid #f5a92b;
 		color: #f5a92b;
 		padding: 2rem;
+		text-align: center;
+		width: 10vw;
 	}
 
 	section ol li {

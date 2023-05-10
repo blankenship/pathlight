@@ -79,11 +79,11 @@ website: 	http://blankenship.xyz
 
 	section {
 		max-width: 60vw;
-		margin: 0 auto;
+		margin-left: 30vw;
 	}
 
 	section h4 {
-		border: 1px solid #f5a92b;
+		border: 2px solid #f5a92b;
 		color: #f5a92b;
 		padding: 2rem;
 		text-align: center;
@@ -103,10 +103,11 @@ website: 	http://blankenship.xyz
 
 	section ol {
 		list-style-type: decimal-leading-zero;
+		list-style-position: inside;
 	}
 
 	section ol li {
-		border: 1px solid #333;
+		border: 2px solid #333;
 		color: #fff;
 		padding: 2rem;		
 		width: 10vw;

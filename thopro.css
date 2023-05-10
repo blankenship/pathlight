@@ -59,8 +59,14 @@ website: 	http://blankenship.xyz
 		padding: 0;
 	}
 
+	main { 
+		max-width: 1000px; 
+		margin:  0 auto;
+		padding: 0;
+	}
+
 	.vert-grid {
-	  background-size: 20px 100%;
+	  background-size: 20vw 100%;
 	  background-image: linear-gradient(to right,
 	                                    #333 0%,
 	                                    transparent 5%,

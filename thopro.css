@@ -110,6 +110,7 @@ website: 	http://blankenship.xyz
 	section ol li {
 		border: 2px solid #333;
 		color: #fff;
+		margin-left: 10vw;
 		padding: 2rem;		
 		width: 20vw;
 	}
@@ -119,7 +120,7 @@ website: 	http://blankenship.xyz
 		color: #222;
 		padding: 2rem;
 	}
-	
+
 	header div {}
 
 	header div section {

@@ -103,14 +103,14 @@ website: 	http://blankenship.xyz
 
 	header h2 {
 		color: #555;
-		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
-		font-variation-settings: "wght" 400;
+		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 		margin-bottom: 4rem;
 		width: 20vw;
 	}
 
 	header h3 {
-		font: 100 3rem/3rem 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		font: 400 3rem/3rem "IBM Plex Mono", monospace;
+		letter-spacing: -.25rem;
 		margin-bottom: 4rem;
 	}
 
@@ -119,7 +119,7 @@ website: 	http://blankenship.xyz
 		border: 3px solid #f5a92b;
 		color: #f5a92b;
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
-		font-variation-settings: "wght" 300;
+		font-variation-settings: "wght" 400;
 		letter-spacing: .2rem;
 		text-transform: uppercase;
 		padding: 2rem 2rem 1.8rem 2rem;
@@ -150,7 +150,7 @@ website: 	http://blankenship.xyz
 		content: counter(item) " "; 
 		counter-increment: item;
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
-		font-variation-settings: "wght" 900;
+		font-variation-settings: "wght" 800;
 		padding-right: 2rem;
 	}
 

@@ -87,7 +87,7 @@ website: 	http://blankenship.xyz
 		margin-top: 4rem;
 	}
 
-	header {
+	header div {
 		display: grid;
 	    grid-template-columns: 30vw 30vw;		
 	    padding: 4rem;

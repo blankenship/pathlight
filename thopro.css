@@ -104,13 +104,13 @@ website: 	http://blankenship.xyz
 	header h2 {
 		color: #555;
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
-		margin-bottom: 4rem;
+		margin-bottom: 2rem;
 		width: 15vw;
 	}
 
 	header h3 {
-		font: 400 3rem/3rem "IBM Plex Mono", monospace;
-		letter-spacing: -.25rem;
+		font: 100 2rem/2rem "IBM Plex Mono", monospace;
+		letter-spacing: -.15rem;
 		margin-bottom: 4rem;
 	}
 

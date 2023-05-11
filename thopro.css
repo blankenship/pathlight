@@ -118,11 +118,11 @@ website: 	http://blankenship.xyz
 		border: 3px solid #f5a92b;
 		color: #f5a92b;
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
-		font-variation-settings: "wght" 400;
+		font-variation-settings: "wght" 200;
 		letter-spacing: .2rem;
 		margin-bottom: 4rem;
 		text-transform: uppercase;
-		padding: 2rem;
+		padding: 2rem 2rem 1.8rem 2rem;
 		text-align: center;
 		width: 20vw;
 	}
@@ -139,7 +139,7 @@ website: 	http://blankenship.xyz
 		border-right: 3px solid #333;
 		border-left: 3px solid #f5a92b;
 		color: #fff;
-		font-family: "IBM Plex Mono", monospace;
+		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 		margin-left: 10vw;
 		padding: 2rem;		
 		width: 20vw;
@@ -175,12 +175,13 @@ website: 	http://blankenship.xyz
 	footer section {
 		margin: 0 auto;
 		display: grid;
-	    grid-template-columns: 30vw 30vw;
+	    grid-template-columns: 30vw 20vw 10vw;
 	    padding: 4rem 0;
 	}
 
 	footer p {
-		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
+		color: #666;
+		font: 400 .75rem/1rem "IBM Plex Mono", monospace;
 	}
 
 /* TYPOGRAPHY */

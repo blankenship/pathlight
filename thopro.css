@@ -95,21 +95,22 @@ website: 	http://blankenship.xyz
 
 	header img#logo { 
 		margin-bottom: 4rem;
-		margin-left: 7vw;
+		margin-left: 3.3vw;
 		width: 10vw; 
 	}
 
 	header h2 {
-		color: #777;
+		color: #555;
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		font-variation-settings: "wght" 400;
+		margin-bottom: 4rem;
 		width: 20vw;
 	}
 
 	header h3 {
-		font-weight: 100;
-		font-size: 10rem;
+		font: 3rem/3rem 100 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		margin-bottom: 4rem;
+		width: 20vw;
 	}
 
 	section h4 {

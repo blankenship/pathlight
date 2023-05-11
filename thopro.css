@@ -138,7 +138,7 @@ website: 	http://blankenship.xyz
 
 	section ol li:before { 
 		color: #f5a92b;
-		content: 0 counter(item) " "; 
+		content: counter(item) 0" "; 
 		counter-increment: item;
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		font-variation-settings: "wght" 900;

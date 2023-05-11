@@ -93,10 +93,12 @@ website: 	http://blankenship.xyz
 	}
 
 	section h4 {
-		border: 2px solid #f5a92b;
+		background: #222;
+		border: 3px solid #f5a92b;
 		color: #f5a92b;
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
-		font-variation-settings: "wght" 900;
+		font-variation-settings: "wght" 600;
+		letter-spacing: .2rem;
 		text-transform: uppercase;
 		padding: 2rem;
 		text-align: center;
@@ -121,7 +123,8 @@ website: 	http://blankenship.xyz
 	}
 
 	section ol li {
-		border: 2px solid #333;
+		background: #222;
+		border: 3px solid #333;
 		color: #fff;
 		margin-left: 10vw;
 		padding: 2rem;		

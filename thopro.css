@@ -68,9 +68,13 @@ website: 	http://blankenship.xyz
 	.vert-grid {
 	  background-size: 10vw 100%;
 	  background-image: linear-gradient(to right,
-	                                    #333 0%,
+	                                    #444 0%,
 	                                    transparent 1%,
 	                                    transparent 100%);
+	}
+
+	main-figure {
+		width: 50vw;
 	}
 
 	main figure img {
@@ -80,11 +84,20 @@ website: 	http://blankenship.xyz
 	section {
 		max-width: 60vw;
 		margin-left: 10vw;
+		margin-top: 4rem;
+	}
+
+	header h2 {
+		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		font-variation-settings: "wght" 400;
 	}
 
 	section h4 {
 		border: 2px solid #f5a92b;
 		color: #f5a92b;
+		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		font-variation-settings: "wght" 900;
+		text-transform: uppercase;
 		padding: 2rem;
 		text-align: center;
 		width: 20vw;

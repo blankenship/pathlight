@@ -138,11 +138,12 @@ website: 	http://blankenship.xyz
 
 	section ol li:before { 
 		color: #f5a92b;
-		content: counter(item) " "; 
+		content: counter(item) "0 "; 
 		counter-increment: item;
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		font-variation-settings: "wght" 900;
 		border-right: 3px solid #333;
+		padding-right: 2rem;
 	}
 
 	button {

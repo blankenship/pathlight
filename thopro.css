@@ -198,6 +198,9 @@ website: 	http://blankenship.xyz
 		letter-spacing: -.05rem;
 	}
 
+	.white { color: #fff; }
+	.brand { color: #f5a92b; }
+	
 /* SMALL SCREENS */
 
 		@media (min-width: 100px) and (max-width: 800px) {

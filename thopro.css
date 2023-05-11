@@ -68,7 +68,7 @@ website: 	http://blankenship.xyz
 	.vert-grid {
 	  background-size: 10vw 100%;
 	  background-image: linear-gradient(to right,
-	                                    #333 0%,
+	                                    #222 0%,
 	                                    transparent 1%,
 	                                    transparent 100%);
 	}
@@ -127,19 +127,6 @@ website: 	http://blankenship.xyz
 		width: 20vw;
 	}
 
-/*	section ol.custom-counter {
-		counter-reset: section;
-	}
-
-	.custom-counter li::before {
-		border-right: 3px solid #333;
-		counter-increment: step-counter;
-		content: counter(step-counter);
-		color: #f5a92b;
-		padding: 2rem;
-		list-style-type: decimal-leading-zero;
-	}*/
-
 	section ol {
 		counter-reset: item;
 		list-style-type: none;
@@ -169,20 +156,15 @@ website: 	http://blankenship.xyz
 
 	button {
 		background: #f5a92b;
+		border: 0 none;
 		color: #111;
+		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 		margin-bottom: 4rem;
 		padding: 2rem;
 		width: 20vw;
 	}
 
-	header div {}
-
-	header div section {
-		display: grid;
-	    grid-template-columns: 45% 45%;
-	    grid-gap: 10%;
-	}
-
+	button a { color: inherit; }
 	
 /* SECTION -- FOOTER */
 
@@ -191,7 +173,6 @@ website: 	http://blankenship.xyz
 	}
 
 	footer section {
-		max-width: 1200px;
 		margin: 0 auto;
 		display: grid;
 	    grid-template-columns: 30vw 30vw;
@@ -199,7 +180,7 @@ website: 	http://blankenship.xyz
 	}
 
 	footer p {
-		font: 400 1.15rem/2rem "IBM Plex Mono", monospace;
+		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 	}
 
 /* TYPOGRAPHY */

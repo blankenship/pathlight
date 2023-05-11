@@ -68,7 +68,7 @@ website: 	http://blankenship.xyz
 /* GRID BACKGROUND */
 
 	.vert-grid {
-	  background-size: 10vw 100%;
+	  background-size: 5vw 100%;
 	  background-image: linear-gradient(to right,
 	                                    #222 0%,
 	                                    transparent 1%,
@@ -181,7 +181,7 @@ website: 	http://blankenship.xyz
 	footer section {
 		margin: 0 auto;
 		display: grid;
-	    grid-template-columns: 30vw 20vw 10vw;
+	    grid-template-columns: 15vw 15vw 15vw 15vw;
 	    padding: 4rem 0;
 	}
 

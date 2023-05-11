@@ -97,8 +97,9 @@ website: 	http://blankenship.xyz
 		border: 3px solid #f5a92b;
 		color: #f5a92b;
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
-		font-variation-settings: "wght" 600;
+		font-variation-settings: "wght" 400;
 		letter-spacing: .2rem;
+		margin-bottom: 4rem;
 		text-transform: uppercase;
 		padding: 2rem;
 		text-align: center;
@@ -118,14 +119,9 @@ website: 	http://blankenship.xyz
 		list-style-type: decimal-leading-zero;
 	}*/
 
-
-ul li { 
-list-style-type: default;
-}
-
-
 	section ol {
-		border-left: 3px solid #f5a92b;
+		border-top: 3px solid #333;
+		border-bottom: 3px solid #333;
 		counter-reset: item;
 		list-style-type: none;
 		list-style-position: inside;
@@ -133,7 +129,8 @@ list-style-type: default;
 
 	section ol li {
 		background: #222;
-		border: 3px solid #333;
+		border-right: 3px solid #333;
+		border-left: 3px solid #f5a92b;
 		color: #fff;
 		margin-left: 10vw;
 		padding: 2rem;		

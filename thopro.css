@@ -215,7 +215,8 @@ website: 	http://blankenship.xyz
 
 	aside p {
 		color: #666;
-		font: 400 .5rem/1rem "IBM Plex Mono", monospace;
+		font: 800 .5rem/1rem "IBM Plex Mono", monospace;
+		letter-spacing: .25rem;
 		text-transform: uppercase;
 		padding-left: .5rem;
 	}

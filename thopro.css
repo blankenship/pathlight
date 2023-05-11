@@ -64,7 +64,7 @@ website: 	http://blankenship.xyz
 		margin:  0 auto;
 		padding: 0;
 	}
-	
+
 /* GRID BACKGROUND */
 
 	.vert-grid {
@@ -195,7 +195,7 @@ website: 	http://blankenship.xyz
 /* ●―● HTML Entity WiWi Logo */
 
 	footer section p em {
-		letter-spacing: -.5rem;
+		letter-spacing: -.05rem;
 	}
 
 /* SMALL SCREENS */

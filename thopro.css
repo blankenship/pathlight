@@ -64,6 +64,8 @@ website: 	http://blankenship.xyz
 		margin:  0 auto;
 		padding: 0;
 	}
+	
+/* GRID BACKGROUND */
 
 	.vert-grid {
 	  background-size: 10vw 100%;
@@ -71,10 +73,6 @@ website: 	http://blankenship.xyz
 	                                    #222 0%,
 	                                    transparent 1%,
 	                                    transparent 100%);
-	}
-
-	main-figure {
-		width: 50vw;
 	}
 
 	main figure img {
@@ -92,6 +90,8 @@ website: 	http://blankenship.xyz
 	    grid-template-columns: 30vw 30vw;		
 	    padding: 4rem;
 	}
+
+/* TYPOGRAPHY */
 
 	header h1 { display: none; }
 
@@ -191,15 +191,14 @@ website: 	http://blankenship.xyz
 		padding-left: .5rem;
 	}
 
-/* TYPOGRAPHY */
 
-/* ●―● */
+/* ●―● HTML Entity WiWi Logo */
 
-	p aside {
+	footer section p em {
 		letter-spacing: -.5rem;
 	}
 
-/* WEE SCREENS */
+/* SMALL SCREENS */
 
 		@media (min-width: 100px) and (max-width: 800px) {
 

@@ -120,8 +120,6 @@ website: 	http://blankenship.xyz
 	}*/
 
 	section ol {
-		border-top: 3px solid #333;
-		border-bottom: 3px solid #333;
 		counter-reset: item;
 		list-style-type: none;
 		list-style-position: inside;
@@ -129,6 +127,7 @@ website: 	http://blankenship.xyz
 
 	section ol li {
 		background: #222;
+		border-top: 3px solid #333;
 		border-right: 3px solid #333;
 		border-left: 3px solid #f5a92b;
 		color: #fff;
@@ -138,8 +137,12 @@ website: 	http://blankenship.xyz
 	}
 
 	section ol li:before { 
+		color: #f5a92b;
 		content: counter(item) " "; 
 		counter-increment: item;
+		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+		font-variation-settings: "wght" 900;
+		border-right: 3px solid #333;
 	}
 
 	button {

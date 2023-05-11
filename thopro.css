@@ -195,9 +195,8 @@ website: 	http://blankenship.xyz
 
 /* ●―● */
 
-	aside span {
-		display: inline-block;
-		margin-top: 1rem;
+	aside {
+		letter-spacing: -.5rem;
 	}
 
 /* WEE SCREENS */

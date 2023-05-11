@@ -175,7 +175,7 @@ website: 	http://blankenship.xyz
 	footer section {
 		margin: 0 auto;
 		display: grid;
-	    grid-template-columns: 30vw 20vw 10vw;
+	    grid-template-columns: 30vw 10vw 20vw;
 	    padding: 4rem 0;
 	}
 

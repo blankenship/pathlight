@@ -160,6 +160,7 @@ website: 	http://blankenship.xyz
 		color: #111;
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 		margin-bottom: 4rem;
+		margin-left: 20vw;
 		padding: 2rem;
 		width: 20vw;
 	}

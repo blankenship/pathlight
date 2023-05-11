@@ -120,6 +120,7 @@ website: 	http://blankenship.xyz
 
 	section ol {
 		border: 1px solid #333;
+		border-left: 3px solid #f5a92b;
 		list-style-type: none;
 		list-style-position: inside;
 	}

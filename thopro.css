@@ -110,6 +110,7 @@ website: 	http://blankenship.xyz
 	}
 
 	.custom-counter li::before {
+		border-right: 3px solid #333;
 		counter-increment: step-counter;
 		content: counter(step-counter);
 		color: #f5a92b;

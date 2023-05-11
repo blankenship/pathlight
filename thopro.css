@@ -85,7 +85,13 @@ website: 	http://blankenship.xyz
 		margin-top: 4rem;
 	}
 
-	header div {
+	header img#logo { 
+		margin-bottom: 4rem;
+		margin-left: 3.3vw;
+		width: 10vw; 
+	}
+
+	header {
 		display: grid;
 	    grid-template-columns: 30vw 30vw;		
 	    padding: 4rem;
@@ -94,12 +100,6 @@ website: 	http://blankenship.xyz
 /* TYPOGRAPHY */
 
 	header h1 { display: none; }
-
-	header img#logo { 
-		margin-bottom: 4rem;
-		margin-left: 3.3vw;
-		width: 10vw; 
-	}
 
 	header h2 {
 		color: #555;

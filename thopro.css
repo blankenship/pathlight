@@ -141,9 +141,9 @@ website: 	http://blankenship.xyz
 		border-left: 3px solid #f5a92b;
 		color: #fff;
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
-		margin-left: 10vw;
+		margin-left: 5vw;
 		padding: 2rem;		
-		width: 20vw;
+		width: 15vw;
 	}
 
 	section ol li:last-of-type {
@@ -172,6 +172,17 @@ website: 	http://blankenship.xyz
 
 	button a { color: inherit; }
 	
+
+/* SECTION -- GRAPHS */
+
+	section#graphs {
+		margin: 0 0 0 -10vw;
+		display: grid;
+	    grid-template-columns: 10vw 25vw 25vw;
+	    padding: 4rem 0;
+	}
+
+
 /* SECTION -- FOOTER */
 
 	footer {
@@ -200,7 +211,7 @@ website: 	http://blankenship.xyz
 
 	.white { color: #fff; }
 	.brand { color: #f5a92b; }
-	
+
 /* SMALL SCREENS */
 
 		@media (min-width: 100px) and (max-width: 800px) {

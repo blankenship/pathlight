@@ -121,7 +121,6 @@ website: 	http://blankenship.xyz
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		font-variation-settings: "wght" 300;
 		letter-spacing: .2rem;
-		margin-bottom: 4rem;
 		text-transform: uppercase;
 		padding: 2rem 2rem 1.8rem 2rem;
 		text-align: center;
@@ -136,7 +135,7 @@ website: 	http://blankenship.xyz
 
 	section ol li {
 		background: #111;
-		border-top: 3px solid #222;
+		border-bottom: 3px solid #222;
 		border-right: 3px solid #222;
 		border-left: 3px solid #f5a92b;
 		color: #fff;
@@ -144,10 +143,6 @@ website: 	http://blankenship.xyz
 		margin-left: 5vw;
 		padding: 2rem;		
 		width: 15vw;
-	}
-
-	section ol li:last-of-type {
-		border-bottom: 3px solid #222;
 	}
 
 	section ol li:before { 

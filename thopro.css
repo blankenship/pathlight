@@ -207,6 +207,24 @@ website: 	http://blankenship.xyz
 	}
 
 
+/* SECTION -- TIMZONES */
+
+	aside {
+		background: #f5a92b;
+		color: #111;
+		margin: 0 auto;
+		display: grid;
+	    grid-template-columns: 30vw 15vw 15vw;
+	    padding: 1rem 0;
+	}
+
+	aside p {
+		color: #666;
+		font: 400 .8rem/1rem "IBM Plex Mono", monospace;
+		padding-left: .5rem;
+	}
+
+
 /* ●――● HTML Entity WiWi Logo */
 
 	footer section p em {

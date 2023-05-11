@@ -115,11 +115,12 @@ website: 	http://blankenship.xyz
 		content: counter(step-counter);
 		color: #f5a92b;
 		padding: 2rem;
+		list-style-type: decimal-leading-zero;
 	}
 
 	section ol {
 		border: 1px solid #333;
-		list-style-type: decimal-leading-zero;
+		list-style-type: none;
 		list-style-position: inside;
 	}
 

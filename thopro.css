@@ -87,6 +87,10 @@ website: 	http://blankenship.xyz
 		margin-top: 4rem;
 	}
 
+	header h1 { display: none; }
+
+	header img#logo { width: 10vw; }
+	
 	header h2 {
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		font-variation-settings: "wght" 400;

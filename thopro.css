@@ -189,10 +189,6 @@ website: 	http://blankenship.xyz
 
 /* SECTION -- FOOTER */
 
-	footer {
-		color: #EDEDED;
-	}
-
 	footer section {
 		margin: 0 auto;
 		display: grid;
@@ -202,7 +198,7 @@ website: 	http://blankenship.xyz
 
 	footer p {
 		color: #666;
-		font: 400 .8rem/1rem "IBM Plex Mono", monospace;
+		font: 400 .75rem/1rem "IBM Plex Mono", monospace;
 		padding-left: .5rem;
 	}
 
@@ -210,17 +206,16 @@ website: 	http://blankenship.xyz
 /* SECTION -- TIMZONES */
 
 	aside {
-		background: #f5a92b;
-		color: #111;
+		color: #666;
 		margin: 0 auto;
 		display: grid;
 	    grid-template-columns: 30vw 15vw 15vw;
-	    padding: 1rem 0;
+	    padding: 1rem 0 4rem;
 	}
 
 	aside p {
 		color: #666;
-		font: 400 .8rem/1rem "IBM Plex Mono", monospace;
+		font: 400 .75rem/1rem "IBM Plex Mono", monospace;
 		padding-left: .5rem;
 	}
 

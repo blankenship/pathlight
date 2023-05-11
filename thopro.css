@@ -1,6 +1,6 @@
 /* 
 
-Styles:		●―● Thought Process
+Styles:		●――● Thought Process
 
 origin: 	1.0 — 05/01/23
 version: 	1.1 — 05/11/23 Update
@@ -187,12 +187,12 @@ website: 	http://blankenship.xyz
 
 	footer p {
 		color: #666;
-		font: 400 .9rem/1.1rem "IBM Plex Mono", monospace;
-		padding-left: .5rem;
+		font: 400 .85rem/1rem "IBM Plex Mono", monospace;
+		padding-left: .25rem;
 	}
 
 
-/* ●―● HTML Entity WiWi Logo */
+/* ●――● HTML Entity WiWi Logo */
 
 	footer section p em {
 		letter-spacing: -.05rem;

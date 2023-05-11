@@ -177,6 +177,12 @@ website: 	http://blankenship.xyz
 	    padding: 4rem 0;
 	}
 
+	section#graphs p:first-of-type {
+		background: #111;
+		border: 3px solid #222;
+		padding: 2rem;
+	}
+
 
 /* SECTION -- FOOTER */
 

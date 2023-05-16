@@ -1,0 +1,70 @@
+
+/* 
+
+Styles:		Pathlight
+
+origin: 	1.0 — 05/12/23
+version: 	1.1 — 05/12/23 Update
+author: 	Joshua Blankenship
+email: 		joshua@blankenship.xyz
+website: 	http://blankenship.xyz
+          
+
+/* FOUNDATION */
+
+*, html, div, span, object, iframe,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li, img, figure, figcaption,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased; 
+	font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  	text-rendering: optimizeLegibility;	
+  	margin: 0;
+	padding: 0;
+	outline: none;
+	}
+
+
+/* BACKGROUND IMG */
+
+html { 
+  background: url(@images/pathlight.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* FOREGROUND IMG */
+
+h1 {
+  background: url(@images/pathlight.svg) no-repeat center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+	text-indent: -999999px;
+  width: 60vw;
+}
+
+
+/* TINY */
+
+	@media (min-width: 1px) and (max-width: 800px) {
+
+		h1 {
+  		background: url(@images/pathlight.vert.svg) no-repeat center center;
+			height: 60vh;
+			margin: 20vh auto;
+			width: 100vw;
+		}
+	}

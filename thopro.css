@@ -213,8 +213,7 @@ website: 	http://blankenship.xyz
 	    padding: 1rem 0 4rem;
 	}
 
-	aside p,
-	.timezones p {
+	aside p {
 		color: #666;
 		font: 800 .5rem/1rem "IBM Plex Mono", monospace;
 		letter-spacing: .15rem;
@@ -262,6 +261,12 @@ website: 	http://blankenship.xyz
 }
 
 
+.timezones p {
+	color: #666;
+	font: 800 .5rem/1rem "IBM Plex Mono", monospace;
+	letter-spacing: .15rem;
+	text-transform: uppercase;
+}
 
 
 

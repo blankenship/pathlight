@@ -231,6 +231,29 @@ website: 	http://blankenship.xyz
 	.white { color: #fff; }
 	.brand { color: #f5a92b; }
 
+
+/*-- NEW GRID */
+
+
+.newgrid {  
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	". . . . . . . . . . . . . . . . . . . ."
+	". . . . . . . . . . . . . . . . . . . ."
+	". . . . . . . . . . . . . . . . . . . .";
+}
+
+
+
+
+
+
+
+
 /* SMALL SCREENS */
 
 		@media (min-width: 100px) and (max-width: 800px) {

@@ -313,7 +313,7 @@ website: 	http://blankenship.xyz
 
 	button {
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
-		margin-bottom: 4rem auto;
+		margin: 4rem auto;
 		width: 100%;
 	}
 	

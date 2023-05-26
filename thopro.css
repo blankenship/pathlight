@@ -333,6 +333,12 @@ figcaption {
 	    padding: 4rem 0;
 	}
 
+footer p {
+		font: 400 .75rem/1rem "IBM Plex Mono", monospace;
+		margin-bottom: 1rem;
+		padding: 0;
+		text-align: center;
+	}
 
 /* SECTION -- TIMZONES */
 

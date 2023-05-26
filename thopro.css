@@ -98,16 +98,16 @@ website: 	http://blankenship.xyz
 
 /* TYPOGRAPHY */
 
-	header h1 { display: none; }
+	 h1 { display: none; }
 
-	header h2 {
+	 h2 {
 		color: #555;
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 		margin-bottom: 2rem;
 		width: 15vw;
 	}
 
-	header h3 {
+	 h3 {
 		font: 100 2rem/2rem "IBM Plex Mono", monospace;
 		letter-spacing: -.15rem;
 		margin-bottom: 4rem;

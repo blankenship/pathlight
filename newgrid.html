@@ -33,6 +33,12 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.typekit.net/eea0cdc.css">
+
+	<script>
+  var timeElement = document.getElementById("time");
+  timeElement.innerHTML = getLocalTime();
+</script>
+
 </head>
 
 <body>	
@@ -41,7 +47,7 @@
 		<p>2</p>
 		<p>3</p>
 		<p>4</p>
-			<p>Local time:</p>
+			<p>Local time: <span id="time"></span></p>
 		<p>7</p>
 		<p>8</p>
 		<p>9</p>
@@ -77,13 +83,14 @@
 		<p>20</p>
 	</div>
 
-		<main class="vert-grid">
-
-		<figure>
+	<figure>
 			<!-- <figcaption>&copy;</figcaption> -->
 			<img src="@images/FPO.thopro.hero.webp">
 		</figure>
 
+		<main class="vert-grid">
+
+		
 		<section id="graphs">
 			<p>&copy; <em class="brand">&#9679;&horbar;&horbar;&#9679;</em></p>
 			<p><strong>Advance Optioneering</strong></p>

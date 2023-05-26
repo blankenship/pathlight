@@ -271,7 +271,6 @@ website: 	http://blankenship.xyz
 	img#logo { 
 		margin: 0 auto 4rem;
 		width: calc(80% - 4rem);	
-		width: 100%;
 	}
 
 	header {

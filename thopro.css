@@ -270,6 +270,7 @@ website: 	http://blankenship.xyz
 	img#logo { 
 		margin: 0 auto 4rem;
 		width: calc(80% - 4rem);	
+		width: 100%;
 	}
 
 	header {
@@ -318,6 +319,7 @@ website: 	http://blankenship.xyz
 /* FIGURE */
 
 figcaption {
+		font: 400 .8rem/1.4rem "IBM Plex Mono", monospace;
 	padding: 0 4rem;
 }
 
@@ -327,8 +329,7 @@ figcaption {
 
 	footer section {
 		margin: 0 auto;
-		display: grid;
-	    grid-template-columns: 50vw 50vw 50vw 50vw;
+		display: block;
 	    padding: 4rem 0;
 	}
 

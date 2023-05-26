@@ -261,7 +261,8 @@ website: 	http://blankenship.xyz
 }
 
 
-.timezones p {
+.timezones p,
+.newgrid p {
 	color: #666;
 	font: 800 .5rem/1rem "IBM Plex Mono", monospace;
 	letter-spacing: .15rem;

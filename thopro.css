@@ -232,42 +232,9 @@ website: 	http://blankenship.xyz
 	.brand { color: #f5a92b; }
 
 
-/*-- NEW GRID */
 
 
-.newgrid {  
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
-	gap: 0px 0px;
-	grid-auto-flow: row;
-	grid-template-areas:
-	". . . . . . . . . . . . . . . . . . . ."
-	". . . . . . . . . . . . . . . . . . . ."
-	". . . . . . . . . . . . . . . . . . . .";
-	padding: 2rem 0;
-}
 
-.timezones {  
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr 2fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr;
-	gap: 0px 0px;
-	grid-auto-flow: row;
-	grid-template-areas:
-	". . . . . . . . . . . . . . . . . . . ."
-	". . . . . . . . . . . . . . . . . . . ."
-	". . . . . . . . . . . . . . . . . . . .";
-	padding: 2rem 0;
-}
-
-
-.timezones p,
-.newgrid p {
-	color: #666;
-	font: 800 .5rem/1rem "IBM Plex Mono", monospace;
-	letter-spacing: .15rem;
-	text-transform: uppercase;
-}
 
 
 
@@ -279,6 +246,112 @@ website: 	http://blankenship.xyz
 		@media (min-width: 100px) and (max-width: 800px) {
 
 		
+	main { 
+		max-width: 100vw; 
+	}
+
+/* GRID BACKGROUND */
+
+	.vert-grid {
+	  background-size: 10vw 100%;
+	  background-image: linear-gradient(to right,
+	                                    #222 0%,
+	                                    transparent 1%,
+	                                    transparent 100%);
+	}
+
+	main figure img {
+		width: 100%;
+	}
+
+	section {
+		max-width: 100vw;
+		margin: 4rem auto;
+	}
+
+	img#logo { 
+		margin-bottom: 4rem;
+		width: 100%; 
+	}
+
+	header {
+		display: block;
+	    padding: 4rem;
+	}
+
+/* TYPOGRAPHY */
+
+	 h2 {
+		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
+		margin-bottom: 2rem;
+		width: 100vw;
+	}
+
+	 h3 {
+		font: 100 2rem/2rem "IBM Plex Mono", monospace;
+		margin-bottom: 4rem;
+	}
+
+	section h4 {
+		border: 3px solid #f5a92b;
+		padding: 2rem 2rem 1.8rem 2rem;
+		width: 100vw;
+	}
+
+
+	section ol li {
+		border-bottom: 3px solid #222;
+		border-right: 3px solid #222;
+		border-left: 3px solid #f5a92b;
+		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
+		margin-left: 0;
+		width: 100vw;
+	}
+
+	button {
+		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
+		margin-bottom: 4rem auto;
+		width: 100vw;
+	}
+	
+
+/* SECTION -- GRAPHS */
+
+	section#graphs {
+		margin: 0 0 0 -10vw;
+		display: grid;
+	    grid-template-columns: 10vw 25vw 25vw;
+	    padding: 4rem 0;
+	}
+
+	section#graphs p:first-of-type {
+		background: #111;
+		border: 3px solid #222;
+		padding: 2rem;
+	}
+
+	section#graphs p:nth-child(2) {
+		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
+		margin-left: 5vw;
+	}
+
+/* SECTION -- FOOTER */
+
+	footer section {
+		margin: 0 auto;
+		display: grid;
+	    grid-template-columns: 50vw 50vw 50vw 50vw;
+	    padding: 4rem 0;
+	}
+
+
+/* SECTION -- TIMZONES */
+
+	aside {
+		display: none;
+	}
+
+
 
 				}
 

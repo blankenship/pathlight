@@ -171,7 +171,7 @@ website: 	http://blankenship.xyz
 
 	figcaption {
 		color: #666;
-		margin: 1rem auto 4rem;
+		margin: 1rem auto 6rem;
 		display: grid;
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 	    grid-template-columns: 50% 50%;

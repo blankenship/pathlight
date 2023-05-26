@@ -75,10 +75,6 @@ website: 	http://blankenship.xyz
 	                                    transparent 100%);
 	}
 
-	main figure img {
-		width: 100%;
-	}
-
 	section {
 		max-width: 60vw;
 		margin-left: 10vw;
@@ -167,25 +163,19 @@ website: 	http://blankenship.xyz
 	button a { color: inherit; }
 	
 
-/* SECTION -- GRAPHS */
+/* FIGURE */
 
-	section#graphs {
-		margin: 0 0 0 -10vw;
+	main figure img {
+		width: 100%;
+	}
+
+	figcaption {
+		margin: 1rem auto 2rem;
 		display: grid;
-	    grid-template-columns: 10vw 25vw 25vw;
-	    padding: 4rem 0;
-	}
-
-	section#graphs p:first-of-type {
-		background: #111;
-		border: 3px solid #222;
-		padding: 2rem;
-	}
-
-	section#graphs p:nth-child(2) {
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
-		margin-left: 5vw;
+	    grid-template-columns: 50% 50%;
 	}
+
 
 /* SECTION -- FOOTER */
 
@@ -279,7 +269,7 @@ website: 	http://blankenship.xyz
 
 	img#logo { 
 		margin-bottom: 4rem;
-		width: 100%; 
+		width: calc(80% - 4rem);	
 	}
 
 	header {

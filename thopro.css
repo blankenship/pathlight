@@ -253,7 +253,7 @@ website: 	http://blankenship.xyz
 	.vert-grid {
 	  background-size: 10vw 100%;
 	  background-image: linear-gradient(to right,
-	                                    #222 0%,
+	                                    #444 0%,
 	                                    transparent 1%,
 	                                    transparent 100%);
 	}

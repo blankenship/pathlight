@@ -319,7 +319,7 @@ website: 	http://blankenship.xyz
 	section ol li {
 		border-bottom: 3px solid #222;
 		border-right: 3px solid #222;
-		border-left: 3px solid #222;
+		border-left: 3px solid #f5a92b;
 		font: 400 .8rem/1.5rem "IBM Plex Mono", monospace;
 		margin-left: 0;
 		width: 100%;

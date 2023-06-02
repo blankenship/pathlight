@@ -178,6 +178,21 @@ website: 	http://blankenship.xyz
 	}
 
 
+/* SECTION -- SERVICES */
+
+	footer section#services {
+		margin: 0 auto;
+		display: grid;
+	    grid-template-columns: 15vw 45vw;
+	    padding: 4rem 0;
+	}
+
+	footer section#services ol {
+		display: grid;
+	    grid-template-columns: 33% 33% 33%;
+	}
+
+
 /* SECTION -- FOOTER */
 
 	footer section {

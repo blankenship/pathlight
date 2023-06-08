@@ -197,12 +197,13 @@ website: 	http://blankenship.xyz
 		margin: 1rem auto 6rem;
 		display: grid;
 		font: 400 .85rem/1rem "IBM Plex Mono", monospace;
-	    grid-template-columns: 50% 50%;
+	    grid-template-columns: 30% 50%;
 	}
 
 	figcaption p strong { 
 		color: #fff; 
 		font: inherit;
+		padding-left: 20%;
 	}
 
 

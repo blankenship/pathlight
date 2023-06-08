@@ -124,9 +124,11 @@ website: 	http://blankenship.xyz
 
 	 h3 {
 		color: #777;
-		font: 100 1.5rem/2rem "IBM Plex Mono", monospace;
-		letter-spacing: -.15rem;
-		padding: 4rem 0;
+		font: 100 1.25rem/1.75rem "IBM Plex Mono", monospace;
+	}
+
+	h3:last-of-type {
+		padding-bottom: 6rem;
 	}
 
 	section h4 {

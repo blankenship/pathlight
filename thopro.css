@@ -195,9 +195,11 @@ website: 	http://blankenship.xyz
 		color: #666;
 		margin: 1rem auto 6rem;
 		display: grid;
-		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
+		font: 400 .85rem/1rem "IBM Plex Mono", monospace;
 	    grid-template-columns: 50% 50%;
 	}
+
+	figcaption p strong { color: #fff; }
 
 
 /* SECTION -- SERVICES */
@@ -211,9 +213,19 @@ website: 	http://blankenship.xyz
 
 	section#services ul {
 		display: grid;
-	    grid-template-columns: 33% 33% 33%;
+	    grid-template-columns: 15vw 15vw 15vw;
 	}
 
+	section#services li {
+		font: 400 .85rem/1.25rem "IBM Plex Mono", monospace;
+		padding-right: 2.5vw;
+	}
+
+	section#services h4 {
+		border: none 0;
+		text-align: left;
+		padding: 0;
+	}
 
 /* SECTION -- FOOTER */
 

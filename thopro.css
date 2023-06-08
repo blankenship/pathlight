@@ -142,7 +142,7 @@ website: 	http://blankenship.xyz
 		text-transform: uppercase;
 		padding: 2rem 2rem 1.8rem 2rem;
 		text-align: center;
-		width: 25vw;
+		width: 30vw;
 	}
 
 	section ol {
@@ -160,7 +160,7 @@ website: 	http://blankenship.xyz
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 		margin-left: 5vw;
 		padding: 2rem;		
-		width: 20vw;
+		width: 25vw;
 	}
 
 	section ol li:before { 

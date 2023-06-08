@@ -81,30 +81,51 @@ website: 	http://blankenship.xyz
 		margin-top: 4rem;
 	}
 
-	img#logo { 
-		margin-bottom: 4rem;
-		width: 15vw; 
+/* SECTION -- TIMEZONES */
+
+	aside {
+		color: #666;
+		margin: 0 auto;
+		display: grid;
+	    grid-template-columns: 30vw 15vw 15vw;
+	    padding: 2rem 0 5rem;
 	}
+
+	aside p {
+		color: #666;
+		font: 800 .5rem/1rem "IBM Plex Mono", monospace;
+		letter-spacing: .15rem;
+		text-transform: uppercase;
+	}
+
+
+/* SECTION -- HEADER */
 
 	header {
 		display: grid;
-	    grid-template-columns: 30vw 15vw 15vw;
-	    padding: 4rem;
+	    grid-template-columns: 20vw 30vw;
+	    padding: 4rem 0;
 	}
 
-/* TYPOGRAPHY */
+	h1 { display: none; } /* Note: Hides brand name so only SEO bots see it */
 
-	 h1 { display: none; }
-
-	 h2 {
+	h2 {
 		color: #f5a92b;
 		font: 400 1.5rem/2rem "IBM Plex Mono", monospace;
 	}
 
+	img#logo { 
+		width: 100%; 
+	}
+
+
+/* TYPOGRAPHY */
+
 	 h3 {
-		font: 100 2rem/2rem "IBM Plex Mono", monospace;
+		color: #777;
+		font: 100 1.5rem/2rem "IBM Plex Mono", monospace;
 		letter-spacing: -.15rem;
-		margin-bottom: 4rem;
+		padding: 4rem 0;
 	}
 
 	section h4 {
@@ -207,23 +228,7 @@ website: 	http://blankenship.xyz
 	}
 
 
-/* SECTION -- TIMZONES */
 
-	aside {
-		color: #666;
-		margin: 0 auto;
-		display: grid;
-	    grid-template-columns: 30vw 15vw 15vw;
-	    padding: 1rem 0 4rem;
-	}
-
-	aside p {
-		color: #666;
-		font: 800 .5rem/1rem "IBM Plex Mono", monospace;
-		letter-spacing: .15rem;
-		text-transform: uppercase;
-		padding-left: .5rem;
-	}
 
 
 /* ●――● HTML Entity WiWi Logo */

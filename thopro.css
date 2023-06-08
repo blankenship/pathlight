@@ -88,7 +88,7 @@ website: 	http://blankenship.xyz
 
 	header {
 		display: grid;
-	    grid-template-columns: 30vw 30vw;		
+	    grid-template-columns: 30vw 15vw 15vw;
 	    padding: 4rem;
 	}
 
@@ -97,10 +97,8 @@ website: 	http://blankenship.xyz
 	 h1 { display: none; }
 
 	 h2 {
-		color: #777;
-		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
-		margin-bottom: 2rem;
-		width: 15vw;
+		color: #f5a92b;
+		font: 400 1.5rem/2rem "IBM Plex Mono", monospace;
 	}
 
 	 h3 {

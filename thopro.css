@@ -197,7 +197,7 @@ website: 	http://blankenship.xyz
 		margin: 1rem auto 6rem;
 		display: grid;
 		font: 400 .85rem/1rem "IBM Plex Mono", monospace;
-	    grid-template-columns: 20vw 25vw;
+	    grid-template-columns: 25vw 25vw;
 	    grid-gap: 5vw;
 	}
 

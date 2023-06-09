@@ -326,7 +326,7 @@ Footer → Copyright
 		}
 
 		.vert-grid {
-		  background-size: 8vw 100%; /* shifting from 20-column to 8-column grid */
+		  background-size: 12.5vw 100%; /* shifting from 20-column to 8-column grid */
 		}
 
 		section {
@@ -336,7 +336,7 @@ Footer → Copyright
 		}
 
 		img#logo { 
-			margin: 0 auto;
+			margin: 0 auto 2rem;
 			width: 75vw;	
 		}
 

@@ -156,9 +156,12 @@ Footer → Copyright
 
 /* FIGURE -- HERO IMAGE */
 
-	main figure img {
+	main figure {
 		border-top: 2px solid #222; 
 		border-bottom: 2px solid #222; 
+	}
+
+	main figure img {
 		border-radius: 2.75rem;
 		width: 100%;
 	}
@@ -206,10 +209,10 @@ Footer → Copyright
 
 	section ol li {
 		background: #111;
-		border-bottom: 2px solid #222;
-		border-right: 2px solid #222;
+		border-bottom: 2px solid #FFF;
+		border-right: 2px solid #FFF;
 		box-sizing: borderbox;
-		color: #fff;
+		color: #FFF;
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 		padding: 2rem;		
 		width: 25vw;

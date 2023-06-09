@@ -65,6 +65,11 @@ website: 	http://blankenship.xyz
 		padding: 0;
 	}
 
+	section {
+		max-width: 60vw;
+	}
+
+
 /* GRID BACKGROUND */
 
 	.vert-grid {
@@ -75,13 +80,27 @@ website: 	http://blankenship.xyz
 	                                    transparent 100%);
 	}
 
-	section {
-		max-width: 60vw;
-		margin-left: 10vw;
-		margin-top: 4rem;
-	}
+/* --------------------------------------------------
 
-/* SECTION -- TIMEZONES */
+
+Page Map 
+
+Aside → Timezones
+Header → Logo + Tagline
+Section → Explainer Copy
+Figure → Hero Image
+Section → Media Architecture List
+Section → Digital Experience List
+Section → Services
+Div → Call to Action
+Footer → Copyright
+
+
+---------------------------------------------------- */
+
+
+
+/* ASIDE -- TIMEZONES */
 
 	aside {
 		color: #666;
@@ -120,7 +139,7 @@ website: 	http://blankenship.xyz
 	}
 
 
-/* TYPOGRAPHY */
+/* SECTION -- EXPLAINER */
 
 	 h3 {
 		color: #777;
@@ -132,6 +151,31 @@ website: 	http://blankenship.xyz
 	h3:last-of-type {
 		margin-bottom: 5rem;
 	}
+
+
+/* FIGURE -- HERO IMAGE */
+
+	main figure img {
+		width: 100%;
+	}
+
+	figcaption {
+		color: #666;
+		margin: 1rem auto 6rem;
+		display: grid;
+		font: 400 .85rem/1rem "IBM Plex Mono", monospace;
+	    grid-template-columns: 25vw 25vw;
+	    grid-gap: 5vw;
+	}
+
+	figcaption p strong { 
+		color: #fff; 
+		font: inherit;
+		padding-left: 10vw;
+	}
+
+
+/* SECTION -- LISTS */
 
 	section h4 {
 		background: #111;
@@ -175,49 +219,6 @@ website: 	http://blankenship.xyz
 	}
 
 
-/* CTA */
-
-	div#cta { 
-		border-top: 2px solid #222; 
-		border-bottom: 2px solid #222; 
-	}
-
-	button {
-		background: #f5a92b;
-		border: 0 none;
-		border-radius: 2.75rem;
-		color: #111;
-		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
-		margin-left: 15vw;
-		padding: 2rem;
-		width: 25vw;
-	}
-
-	button a { color: inherit; }
-	
-
-/* FIGURE */
-
-	main figure img {
-		width: 100%;
-	}
-
-	figcaption {
-		color: #666;
-		margin: 1rem auto 6rem;
-		display: grid;
-		font: 400 .85rem/1rem "IBM Plex Mono", monospace;
-	    grid-template-columns: 25vw 25vw;
-	    grid-gap: 5vw;
-	}
-
-	figcaption p strong { 
-		color: #fff; 
-		font: inherit;
-		padding-left: 10vw;
-	}
-
-
 /* SECTION -- SERVICES */
 
 	section#services {
@@ -253,6 +254,29 @@ website: 	http://blankenship.xyz
 		margin-right: 5vw;
 	}
 
+
+/* CTA */
+
+	div#cta { 
+		border-top: 2px solid #222; 
+		border-bottom: 2px solid #222; 
+	}
+
+	button {
+		background: #f5a92b;
+		border: 0 none;
+		border-radius: 2.75rem;
+		color: #111;
+		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
+		margin-left: 15vw;
+		padding: 2rem;
+		width: 25vw;
+	}
+
+	button a { color: inherit; }
+	
+
+
 /* SECTION -- FOOTER */
 
 	footer section {
@@ -268,9 +292,6 @@ website: 	http://blankenship.xyz
 	}
 
 
-
-
-
 /* ●――● HTML Entity WiWi Logo */
 
 	footer section p em {
@@ -279,18 +300,6 @@ website: 	http://blankenship.xyz
 
 	.white { color: #fff; }
 	.brand { color: #f5a92b; }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* -------------------------------------------------- */

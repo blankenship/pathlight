@@ -60,13 +60,13 @@ website: 	http://blankenship.xyz
 	}
 
 	main { 
-		max-width: 60vw; 
+		width: 60vw; 
 		margin:  0 auto;
 		padding: 0;
 	}
 
 	section {
-		max-width: 60vw;
+		width: 60vw;
 	}
 
 
@@ -146,7 +146,7 @@ Footer → Copyright
 		font: 100 1rem/1.5rem "IBM Plex Mono", monospace;
 		margin-bottom: 1.5rem;
 		margin-left: 10vw;
-		max-width: 35vw;
+		width: 35vw;
 	}
 
 	h3:last-of-type {
@@ -310,7 +310,7 @@ Footer → Copyright
 
 
 	/* Tablet size viewport */
-	@media (min-width: 801px) and (max-width: 1099px) {
+	@media (min-width: 801px) and (width: 1099px) {
 
 		/* Tweak to your liking */
 
@@ -318,7 +318,7 @@ Footer → Copyright
 
 
 	/* Phone size viewport */
-	@media (min-width: 100px) and (max-width: 800px) {
+	@media (min-width: 100px) and (width: 800px) {
 
 		
 		main { 
@@ -332,7 +332,6 @@ Footer → Copyright
 		section {
 			width: 100vw;
 			margin: 4rem auto;
-			padding: 0 4rem;
 		}
 
 		img#logo { 
@@ -342,7 +341,7 @@ Footer → Copyright
 
 		header {
 			display: block;
-			margin: 0 auto;
+			margin: 0 12.5vw;
 		    padding: 4rem 0 2rem;
 		}
 
@@ -362,7 +361,7 @@ Footer → Copyright
 
 		figure {
 			margin: 0 auto;
-			width: 100%;
+			width: 100vw;
 		}
 
 		main figure img {
@@ -380,7 +379,7 @@ Footer → Copyright
 		figcaption {
 			display: block;	
 			font: 400 .8rem/1.2rem "IBM Plex Mono", monospace;
-			margin: 0;
+			margin: 1rem 12.5vw 0;
 			width: 75vw;
 		}
 

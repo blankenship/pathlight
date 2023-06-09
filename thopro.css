@@ -71,7 +71,7 @@ website: 	http://blankenship.xyz
 	  background-size: 5vw 100%;
 	  background-image: linear-gradient(to right,
 	                                    #333 0%,
-	                                    transparent 1%,
+	                                    transparent 2%,
 	                                    transparent 100%);
 	}
 
@@ -135,7 +135,7 @@ website: 	http://blankenship.xyz
 
 	section h4 {
 		background: #111;
-		border: 3px solid #f5a92b;
+		border: 2px solid #f5a92b;
 		color: #f5a92b;
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		font-variation-settings: "wght" 400;
@@ -153,9 +153,9 @@ website: 	http://blankenship.xyz
 
 	section ol li {
 		background: #111;
-		border-bottom: 3px solid #222;
-		border-right: 3px solid #222;
-		border-left: 3px solid #f5a92b;
+		border-bottom: 2px solid #222;
+		border-right: 2px solid #222;
+		border-left: 2px solid #f5a92b;
 		color: #fff;
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 		margin-left: 5vw;
@@ -176,8 +176,8 @@ website: 	http://blankenship.xyz
 /* CTA */
 
 	div#cta { 
-		border-top: 1px solid #333; 
-		border-bottom: 1px solid #333; 
+		border-top: 2px solid #333; 
+		border-bottom: 2px solid #333; 
 	}
 
 	button {

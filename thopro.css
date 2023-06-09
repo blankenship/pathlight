@@ -70,7 +70,7 @@ website: 	http://blankenship.xyz
 	.vert-grid {
 	  background-size: 5vw 100%;
 	  background-image: linear-gradient(to right,
-	                                    #222 0%,
+	                                    #333 0%,
 	                                    transparent 1%,
 	                                    transparent 100%);
 	}
@@ -176,8 +176,8 @@ website: 	http://blankenship.xyz
 /* CTA */
 
 	div#cta { 
-		border-top: 1px solid #222; 
-		border-bottom: 1px solid #222; 
+		border-top: 1px solid #333; 
+		border-bottom: 1px solid #333; 
 	}
 
 	button {
@@ -222,7 +222,7 @@ website: 	http://blankenship.xyz
 		margin: 0 auto;
 		display: grid;
 	    grid-template-columns: 15vw 45vw;
-	    padding: 8rem 0 2rem;
+	    padding: 8rem 0 6rem;
 	}
 
 	section#services ul {
@@ -257,7 +257,7 @@ website: 	http://blankenship.xyz
 		margin: 0 auto;
 		display: grid;
 	    grid-template-columns: 15vw 15vw 15vw 15vw;
-	    padding: 4rem 0;
+	    padding: 6rem 0;
 	}
 
 	footer p {

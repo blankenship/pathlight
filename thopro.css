@@ -336,12 +336,13 @@ Footer → Copyright
 		}
 
 		img#logo { 
-			margin: 0 auto 2rem;
+			margin: 0 auto 4rem;
 			width: 75vw;	
 		}
 
 		header {
 			display: block;
+			margin: 0 auto;
 		    padding: 4rem 0 2rem;
 		}
 

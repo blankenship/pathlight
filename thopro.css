@@ -310,14 +310,16 @@ Footer → Copyright
 
 
 	/* Tablet size viewport */
+
 	@media (min-width: 801px) and (width: 1199px) {
 
-		/* Tweak to your liking */
+		/* Note: tweak to your liking */
 
 	}
 
 
 	/* Phone size viewport */
+
 	@media (min-width: 1px) and (width: 800px) {
 
 		

@@ -307,7 +307,7 @@ Footer → Copyright
 
 /* SMALL SCREEN RESPONSIVE STYLES */
 
-	@media (min-width: 100px) and (width: 800px) {
+	@media only screen and (max-width: 800px) and (min-width: 100px)  {
 
 		aside { display: none; }
 
@@ -434,7 +434,7 @@ Footer → Copyright
 			text-align: center;
 		}
 
-	} 
+	} } 
 
 
 /* 2023 */

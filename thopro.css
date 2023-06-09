@@ -175,7 +175,7 @@ website: 	http://blankenship.xyz
 
 /* CTA */
 
-	section#cta { 
+	div#cta { 
 		border-top: 1px solid #222; 
 		border-bottom: 1px solid #222; 
 	}
@@ -183,7 +183,7 @@ website: 	http://blankenship.xyz
 	button {
 		background: #f5a92b;
 		border: 0 none;
-		border-radius: 50%;
+		border-radius: 2.75rem;
 		color: #111;
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 		margin-bottom: 4rem;

@@ -152,7 +152,7 @@ website: 	http://blankenship.xyz
 	}
 
 	section ol li {
-		background: red;
+		background: #111;
 		border-bottom: 2px solid #222;
 		border-right: 2px solid #222;
 		border-left: 2px solid #f5a92b;
@@ -161,7 +161,7 @@ website: 	http://blankenship.xyz
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 		margin-left: 5vw;
 		padding: 2rem;		
-		width: 25vw;
+		width: calc(25vw + 4px);
 	}
 
 	section ol li:before { 

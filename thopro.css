@@ -348,7 +348,7 @@ Footer → Copyright
 
 		h3 {
 			font: 100 .8rem/1.2rem "IBM Plex Mono", monospace;
-			margin: 0 12.5vw;
+			margin: 0 12.5vw 1.2 rem;
 			text-align: left;
 			width: 75vw;
 		}
@@ -377,7 +377,7 @@ Footer → Copyright
 		}
 
 		section h4 {
-			margin: 0;
+			margin: 0 12.5vw;
 			padding: 2rem 2rem 1.8rem 2rem;
 			width: 75vw;
 		}
@@ -405,7 +405,7 @@ Footer → Copyright
 			border: none 0;
 			text-align: left;
 			padding: 0;
-			margin: 0 0 2rem 0;
+			margin: 0 12.5vw 2rem;
 		}
 
 		section#services li {

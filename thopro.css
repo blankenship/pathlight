@@ -124,12 +124,13 @@ website: 	http://blankenship.xyz
 
 	 h3 {
 		color: #777;
-		font: 100 1.25rem/1.75rem "IBM Plex Mono", monospace;
-		margin-bottom: 1.75rem;
+		font: 100 1rem/1.5rem "IBM Plex Mono", monospace;
+		margin-bottom: 1.5rem;
+		max-width: 40vw;
 	}
 
 	h3:last-of-type {
-		margin-bottom: 4rem;
+		margin-bottom: 5rem;
 	}
 
 	section h4 {
@@ -140,8 +141,7 @@ website: 	http://blankenship.xyz
 		font-variation-settings: "wght" 400;
 		letter-spacing: .2rem;
 		text-transform: uppercase;
-		padding: 2rem 2rem 1.8rem 2rem;
-		text-align: center;
+		padding: 2rem;
 		width: 30vw;
 	}
 
@@ -172,9 +172,18 @@ website: 	http://blankenship.xyz
 		padding-right: 2rem;
 	}
 
+
+/* CTA */
+
+	section#cta { 
+		border-top: 1px solid #222; 
+		border-bottom: 1px solid #222; 
+	}
+
 	button {
 		background: #f5a92b;
 		border: 0 none;
+		border-radius: 50%;
 		color: #111;
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 		margin-bottom: 4rem;
@@ -214,7 +223,7 @@ website: 	http://blankenship.xyz
 		margin: 0 auto;
 		display: grid;
 	    grid-template-columns: 15vw 45vw;
-	    padding: 6rem 0 2rem;
+	    padding: 8rem 0 2rem;
 	}
 
 	section#services ul {

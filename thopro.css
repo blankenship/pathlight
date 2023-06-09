@@ -360,10 +360,22 @@ Footer → Copyright
 			width: 75vw;
 		}
 
+		figure {
+			margin: 0 auto;
+			width: 100%;
+		}
+
 		main figure img {
 			border-radius: 0;
 			width: 100%;
 		}
+
+		figcaption p strong { 
+			color: #fff; 
+			font: inherit;
+			padding-left: 0;
+		}
+
 
 		figcaption {
 			display: block;	

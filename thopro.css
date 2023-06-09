@@ -307,8 +307,8 @@ Footer → Copyright
 
 /* SMALL SCREEN RESPONSIVE STYLES */
 
-	/* Phone size viewport 1–800px */
-	@media (min-width: 1px) and (width: 800px) {
+	/* Phone size viewport 100–800px */
+	@media (min-width: 100px) and (width: 800px) {
 
 		
 		main { 

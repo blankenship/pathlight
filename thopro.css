@@ -3,11 +3,30 @@
 Styles:		●――● Thought Process
 
 origin: 	1.0 — 05/01/23
-version: 	1.1 — 05/11/23 Update
+version: 	2.0 — 06/09/23 Update
 author: 	Joshua Blankenship
 email: 		joshua@blankenship.xyz
 website: 	http://blankenship.xyz
-          
+         
+
+/* --------------------------------------------------
+
+
+Page Map 
+
+Aside → Timezones
+Header → Logo + Tagline
+Section → Explainer Copy
+Figure → Hero Image
+Section → Media Architecture List
+Section → Digital Experience List
+Section → Services
+Div → Call to Action
+Footer → Copyright
+
+
+---------------------------------------------------- */
+
 
 /* FOUNDATION */
 
@@ -78,25 +97,6 @@ website: 	http://blankenship.xyz
 	                                    transparent 2%,
 	                                    transparent 100%);
 	}
-
-/* --------------------------------------------------
-
-
-Page Map 
-
-Aside → Timezones
-Header → Logo + Tagline
-Section → Explainer Copy
-Figure → Hero Image
-Section → Media Architecture List
-Section → Digital Experience List
-Section → Services
-Div → Call to Action
-Footer → Copyright
-
-
----------------------------------------------------- */
-
 
 
 /* ASIDE -- TIMEZONES */
@@ -307,16 +307,20 @@ Footer → Copyright
 
 /* SMALL SCREEN RESPONSIVE STYLES */
 
-	/* Phone size viewport 100–800px */
 	@media (min-width: 100px) and (width: 800px) {
 
-		
+		aside { display: none; }
+
 		main { 
 			width: 100vw; 
 		}
 
 		.vert-grid {
-		  background-size: 12.5vw 100%; /* shifting from 20-column to 8-column grid */
+		  background-size: 12.5vw 100%; 
+			background-image: linear-gradient(to right,
+	                                    #333 0%,
+	                                    transparent 2%,
+	                                    transparent 100%);		
 		}
 
 		section {
@@ -365,7 +369,6 @@ Footer → Copyright
 			padding-left: 0;
 		}
 
-
 		figcaption {
 			display: block;	
 			font: 400 .8rem/1.2rem "IBM Plex Mono", monospace;
@@ -392,63 +395,47 @@ Footer → Copyright
 			width: 100%;
 		}
 
-	section#services,
-	section#services ul {
-		display: block;
-	}
+		section#services,
+		section#services ul {
+			display: block;
+		}
 
-	section#services h4 {
-		background: transparent;
-		border: none 0;
-		text-align: center;
-		padding: 0;
-		margin: 0 0 2rem 0;
-	}
+		section#services h4 {
+			background: transparent;
+			border: none 0;
+			text-align: center;
+			padding: 0;
+			margin: 0 0 2rem 0;
+		}
 
-	section#services li {
-		font: 400 .85rem/1.25rem "IBM Plex Mono", monospace;
-		margin: 0 12.5vw 2rem;
-		width: 75vw;
-		padding-right: 0;
-	}
+		section#services li {
+			font: 400 .85rem/1.25rem "IBM Plex Mono", monospace;
+			margin: 0 12.5vw 2rem;
+			width: 75vw;
+			padding-right: 0;
+		}
 
+		button {
+			font: 400 .8rem/1.5rem "IBM Plex Mono", monospace;
+			margin: 0 12.5vw;
+			width: 75vw;
+		}
+		
+		footer section {
+			margin: 0 auto;
+			display: block;
+		    padding: 4rem 0;
+		}
 
-	button {
-		font: 400 .8rem/1.5rem "IBM Plex Mono", monospace;
-		margin: 0 12.5vw;
-		width: 75vw;
-	}
-	
-	footer section {
-		margin: 0 auto;
-		display: block;
-	    padding: 4rem 0;
-	}
+		footer p {
+			font: 400 .75rem/1rem "IBM Plex Mono", monospace;
+			margin-bottom: 2rem;
+			padding: 0;
+			text-align: center;
+		}
 
-	footer p {
-		font: 400 .75rem/1rem "IBM Plex Mono", monospace;
-		margin-bottom: 2rem;
-		padding: 0;
-		text-align: center;
-	}
+	} 
 
-	/* HIDE TIMZONES */
-	aside { display: none; }
-
-
-
-	} /* END phone sizes */
-
-
-
-
-	/* Tablet size viewport 801–1199px */
-
-	@media (min-width: 801px) and (width: 1199px) {
-
-		/* Note: tweak to your liking */
-
-	} /* END tablet sizes */
 
 /* 2023 */
 

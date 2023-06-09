@@ -149,13 +149,13 @@ website: 	http://blankenship.xyz
 		counter-reset: item;
 		list-style-type: none;
 		list-style-position: inside;
+		border-left: 2px solid #f5a92b;
 	}
 
 	section ol li {
 		background: #111;
 		border-bottom: 2px solid #222;
 		border-right: 2px solid #222;
-		border-left: 2px solid #f5a92b;
 		box-sizing: borderbox;
 		color: #fff;
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;

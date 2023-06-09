@@ -70,7 +70,7 @@ website: 	http://blankenship.xyz
 	.vert-grid {
 	  background-size: 5vw 100%;
 	  background-image: linear-gradient(to right,
-	                                    #333 0%,
+	                                    #222 0%,
 	                                    transparent 2%,
 	                                    transparent 100%);
 	}
@@ -176,8 +176,8 @@ website: 	http://blankenship.xyz
 /* CTA */
 
 	div#cta { 
-		border-top: 2px solid #333; 
-		border-bottom: 2px solid #333; 
+		border-top: 2px solid #222; 
+		border-bottom: 2px solid #222; 
 	}
 
 	button {

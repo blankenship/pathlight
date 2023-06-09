@@ -156,11 +156,6 @@ Footer → Copyright
 
 /* FIGURE -- HERO IMAGE */
 
-	main figure {
-		border-top: 2px solid #222; 
-		border-bottom: 2px solid #222; 
-	}
-
 	main figure img {
 		border-radius: 2.75rem;
 		width: 100%;

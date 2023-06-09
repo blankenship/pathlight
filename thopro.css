@@ -19,7 +19,6 @@ website: 	http://blankenship.xyz
 	fieldset, form, label, legend,
 	table, caption, tbody, tfoot, thead, tr, th, td {
 		box-sizing: border-box;
-		font-smoothing: antialiased;
 		margin: 0;
 		padding: 0;
 		outline: none;
@@ -182,7 +181,7 @@ Footer → Copyright
 	section h4 {
 		background: #111;
 		border: 2px solid #f5a92b;
-		box-sizing: borderbox;
+		box-sizing: border-box;
 		color: #f5a92b;
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		font-variation-settings: "wght" 400;
@@ -206,7 +205,7 @@ Footer → Copyright
 		background: #111;
 		border-bottom: 2px solid #FFF;
 		border-right: 2px solid #FFF;
-		box-sizing: borderbox;
+		box-sizing: border-box;
 		color: #FFF;
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 		padding: 2rem;		

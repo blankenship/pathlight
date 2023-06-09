@@ -307,18 +307,7 @@ Footer → Copyright
 
 /* SMALL SCREEN RESPONSIVE STYLES */
 
-
-	/* Tablet size viewport */
-
-	@media (min-width: 801px) and (width: 1199px) {
-
-		/* Note: tweak to your liking */
-
-	}
-
-
-	/* Phone size viewport */
-
+	/* Phone size viewport 1–800px */
 	@media (min-width: 1px) and (width: 800px) {
 
 		
@@ -448,8 +437,18 @@ Footer → Copyright
 
 
 
-	}
+	} /* END phone sizes */
 
+
+
+
+	/* Tablet size viewport 801–1199px */
+
+	@media (min-width: 801px) and (width: 1199px) {
+
+		/* Note: tweak to your liking */
+
+	} /* END tablet sizes */
 
 /* 2023 */
 

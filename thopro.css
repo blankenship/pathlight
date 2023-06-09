@@ -348,14 +348,12 @@ Footer → Copyright
 
 		h2 {
 			font: 400 1.5rem/1.75rem "IBM Plex Mono", monospace;
-			margin: 0 0 0 12.5vw;
 			text-align: left;
 			width: 75vw;
 		}
 
 		 h3 {
 			font: 100 .8rem/1.2rem "IBM Plex Mono", monospace;
-			margin: 0 0 0 12.5vw;
 			text-align: left;
 			width: 75vw;
 		}
@@ -368,18 +366,15 @@ Footer → Copyright
 		figcaption {
 			display: block;	
 			font: 400 .8rem/1.2rem "IBM Plex Mono", monospace;
-			margin: 0 0 0 12.5vw;
 			width: 75vw;
 		}
 
 		section h4 {
-			margin: 0 0 0 12.5vw;
 			padding: 2rem 2rem 1.8rem 2rem;
 			width: 75vw;
 		}
 
 		section ol {
-			margin: 0 0 0 12.5vw;
 			width: 75vw;
 		}
 

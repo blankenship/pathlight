@@ -346,9 +346,9 @@ Footer → Copyright
 			width: 75vw;
 		}
 
-		 h3 {
+		h3 {
 			font: 100 .8rem/1.2rem "IBM Plex Mono", monospace;
-			margin: 0;
+			margin: 0 12.5vw;
 			text-align: left;
 			width: 75vw;
 		}
@@ -383,7 +383,7 @@ Footer → Copyright
 		}
 
 		section ol {
-			margin: 0;
+			margin: 0 12.5vw;
 			width: 75vw;
 		}
 
@@ -403,7 +403,7 @@ Footer → Copyright
 		section#services h4 {
 			background: transparent;
 			border: none 0;
-			text-align: center;
+			text-align: left;
 			padding: 0;
 			margin: 0 0 2rem 0;
 		}
@@ -422,7 +422,7 @@ Footer → Copyright
 		}
 		
 		footer section {
-			margin: 0 auto;
+			margin: 0 12.5vw;
 			display: block;
 		    padding: 4rem 0;
 		}
@@ -431,10 +431,10 @@ Footer → Copyright
 			font: 400 .75rem/1rem "IBM Plex Mono", monospace;
 			margin-bottom: 2rem;
 			padding: 0;
-			text-align: center;
+			text-align: left;
 		}
 
-	} } 
+	} 
 
 
 /* 2023 */

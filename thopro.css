@@ -322,16 +322,11 @@ Footer → Copyright
 
 		
 		main { 
-			max-width: 100vw; 
+			width: 100vw; 
 		}
 
 		.vert-grid {
-		  background-size: 10vw 100%; /* shifting from 20-column to 10-column grid */
-		}
-
-		main figure img {
-			border-radius: 0;
-			width: 100%;
+		  background-size: 8vw 100%; /* shifting from 20-column to 8-column grid */
 		}
 
 		section {
@@ -341,57 +336,63 @@ Footer → Copyright
 		}
 
 		img#logo { 
-			margin: 0 auto 4rem;
-			width: calc(60% - 4rem);	
-			width: 100%;
+			margin: 0 auto;
+			width: 75vw;	
 		}
 
 		header {
 			display: block;
-		    padding: 4rem 2rem 2rem;
+		    padding: 4rem 0 2rem;
 		}
 
-		 h2 {
-			font: 400 1.2rem/1.5rem "IBM Plex Mono", monospace;
-			margin: 0 auto 2rem;
+		h2 {
+			font: 400 1.5rem/1.75rem "IBM Plex Mono", monospace;
+			margin: 0 0 0 12.5vw;
 			text-align: left;
-			width: 80%;
+			width: 75vw;
 		}
 
 		 h3 {
 			font: 100 .8rem/1.2rem "IBM Plex Mono", monospace;
-			margin-bottom: 4rem;
+			margin: 0 0 0 12.5vw;
 			text-align: left;
-			width: 80%;
+			width: 75vw;
 		}
 
-	section h4 {
-		border: 2px solid #f5a92b;
-		padding: 2rem 2rem 1.8rem 2rem;
-		width: 100%;
-	}
+		main figure img {
+			border-radius: 0;
+			width: 100%;
+		}
 
+		figcaption {
+			display: block;	
+			font: 400 .8rem/1.2rem "IBM Plex Mono", monospace;
+			margin: 0 0 0 12.5vw;
+			width: 75vw;
+		}
 
-	section ol li {
-		border-bottom: 2px solid #222;
-		border-right: 2px solid #222;
-		border-left: 2px solid #f5a92b;
-		font: 400 .8rem/1.5rem "IBM Plex Mono", monospace;
-		margin-left: 0;
-		width: 100%;
-	}
+		section h4 {
+			margin: 0 0 0 12.5vw;
+			padding: 2rem 2rem 1.8rem 2rem;
+			width: 75vw;
+		}
 
-	section#services {
-		display: block;
-	}
+		section ol {
+			margin: 0 0 0 12.5vw;
+			width: 75vw;
+		}
 
+		section ol li {
+			border-bottom: 2px solid #FFF;
+			border-right: 2px solid #FFF;
+			font: 400 .8rem/1.5rem "IBM Plex Mono", monospace;
+			margin-left: 0;
+			width: 100%;
+		}
+
+	section#services,
 	section#services ul {
 		display: block;
-	}
-
-	section#services li {
-		font: 400 .85rem/1.25rem "IBM Plex Mono", monospace;
-		padding-right: 0;
 	}
 
 	section#services h4 {
@@ -399,49 +400,42 @@ Footer → Copyright
 		border: none 0;
 		text-align: center;
 		padding: 0;
-		margin-right: 0;
+		margin: 0 0 2rem 0;
 	}
+
+	section#services li {
+		font: 400 .85rem/1.25rem "IBM Plex Mono", monospace;
+		margin: 0 12.5vw 2rem;
+		width: 75vw;
+		padding-right: 0;
+	}
+
 
 	button {
 		font: 400 .8rem/1.5rem "IBM Plex Mono", monospace;
-		width: 80vw;
+		margin: 0 12.5vw;
+		width: 75vw;
 	}
 	
-
-/* FIGURE */
-
-figcaption {
-	display: block;	
-	font: 400 .8rem/1.4rem "IBM Plex Mono", monospace;
-	padding: 0 4rem;
-}
-
-
-
-/* SECTION -- FOOTER */
-
 	footer section {
 		margin: 0 auto;
 		display: block;
 	    padding: 4rem 0;
 	}
 
-footer p {
+	footer p {
 		font: 400 .75rem/1rem "IBM Plex Mono", monospace;
 		margin-bottom: 2rem;
 		padding: 0;
 		text-align: center;
 	}
 
-/* SECTION -- TIMZONES */
+	/* HIDE TIMZONES */
+	aside { display: none; }
 
-	aside {
-		display: none;
+
+
 	}
-
-
-
-				}
 
 
 /* 2023 */

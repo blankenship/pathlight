@@ -136,6 +136,7 @@ website: 	http://blankenship.xyz
 	section h4 {
 		background: #111;
 		border: 2px solid #f5a92b;
+		box-sizing: borderbox;
 		color: #f5a92b;
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		font-variation-settings: "wght" 400;
@@ -161,7 +162,7 @@ website: 	http://blankenship.xyz
 		color: #fff;
 		font: 400 1rem/1.5rem "IBM Plex Mono", monospace;
 		padding: 2rem;		
-		width: calc(25vw + 2px);
+		width: 25vw;
 	}
 
 	section ol li:before { 

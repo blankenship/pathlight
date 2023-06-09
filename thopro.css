@@ -103,15 +103,15 @@ Footer → Copyright
 /* ASIDE -- TIMEZONES */
 
 	aside {
-		color: #666;
+		color: #777;
 		margin: 0 auto;
 		display: grid;
 	    grid-template-columns: 30vw 15vw 15vw;
-	    padding: 2rem 0 5rem;
+	    padding: 2rem 0 0 0;
 	}
 
 	aside p {
-		color: #666;
+		color: #777;
 		font: 800 .5rem/1rem "IBM Plex Mono", monospace;
 		letter-spacing: .15rem;
 		text-transform: uppercase;
@@ -123,7 +123,7 @@ Footer → Copyright
 	header {
 		display: grid;
 	    grid-template-columns: 20vw 25vw;
-	    padding: 4rem 0;
+	    padding: 6rem 0;
 	}
 
 	h1 { display: none; } /* Note: Hides brand name so only SEO bots see it */
@@ -131,7 +131,7 @@ Footer → Copyright
 	h2 {
 		color: #f5a92b;
 		font: 400 1.5rem/2rem "IBM Plex Mono", monospace;
-		margin: 4rem 0 0 10vw;
+		margin: 5rem 0 0 10vw;
 	}
 
 	img#logo { 
@@ -145,23 +145,27 @@ Footer → Copyright
 		color: #777;
 		font: 100 1rem/1.5rem "IBM Plex Mono", monospace;
 		margin-bottom: 1.5rem;
+		margin-left: 10vw;
 		max-width: 35vw;
 	}
 
 	h3:last-of-type {
-		margin-bottom: 5rem;
+		margin-bottom: 6rem;
 	}
 
 
 /* FIGURE -- HERO IMAGE */
 
 	main figure img {
+		border-top: 2px solid #222; 
+		border-bottom: 2px solid #222; 
+		border-radius: 2.75rem;
 		width: 100%;
 	}
 
 	figcaption {
 		color: #666;
-		margin: 1rem auto 6rem;
+		margin: 1.5rem auto 8rem;
 		display: grid;
 		font: 400 .85rem/1rem "IBM Plex Mono", monospace;
 	    grid-template-columns: 25vw 25vw;
@@ -185,8 +189,9 @@ Footer → Copyright
 		font-family: "din-2014-rounded-variable", 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 		font-variation-settings: "wght" 400;
 		letter-spacing: .2rem;
+		margin-left: 5vw;
 		text-transform: uppercase;
-		padding: 2rem;
+		padding: 2rem 2rem 1.85rem 2rem;
 		width: calc(30vw + 2px);
 	}
 
@@ -195,7 +200,8 @@ Footer → Copyright
 		list-style-type: none;
 		list-style-position: inside;
 		border-left: 2px solid #f5a92b;
-		margin-left: 5vw;
+		margin-left: 10vw;
+		margin-bottom: 3rem;
 	}
 
 	section ol li {
@@ -225,7 +231,7 @@ Footer → Copyright
 		margin: 0 auto;
 		display: grid;
 	    grid-template-columns: 15vw 45vw;
-	    padding: 8rem 0 6rem;
+	    padding: 8rem 0;
 	}
 
 	section#services ul {

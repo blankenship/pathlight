@@ -38,6 +38,7 @@
 <body class="vert-grid">
 	<main>
 		<aside>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 			<p>Los Angeles CA 
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script><script>
 // Import the Moment.js library.
@@ -56,9 +57,11 @@
     document.addEventListener("DOMContentLoaded", () => {
       document.getElementById("time").innerHTML = laTime;
     });
-  </script>  <div id="time"></div></p>
+  </script>  <span id="time"></span></p>
+
+
 			<p>Brooklyn NY 
-					<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
 					<script>
 				    // Import the Moment.js library.
 				    import moment from "moment";
@@ -74,10 +77,10 @@
 
 				    // Set the inner HTML of the div element when the page loads.
 				    document.addEventListener("DOMContentLoaded", () => {
-				      document.getElementById("time").innerHTML = nyTime;
+				      document.getElementByClass("time").innerHTML = nyTime;
 				    });
 				  </script>
-  				  <div id="time"></div></p>
+  				  <span class="time"></span></p>
 		</aside>
 
 		<footer>

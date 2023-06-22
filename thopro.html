@@ -33,12 +33,15 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.typekit.net/eea0cdc.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+
 </head>
 
 <body class="vert-grid">
 	<main>
 		<aside>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+
 			<p>Los Angeles CA 
 		  	  <script>
 		    // Import the Moment.js library.
@@ -54,8 +57,8 @@
 		    const nyTime = now.format("HH:mm:ss");
 
 		    // Set the inner HTML of the div element when the page loads.
-		    document.querySelector("#time").innerHTML = nyTime;
-		  </script> <span id="time"></span></p>
+		    document.querySelector(".time").innerHTML = nyTime;
+		  </script> <span class="time">?</span></p>
 
 
 			<p>Brooklyn NY 
@@ -75,10 +78,10 @@
 
 				    // Set the inner HTML of the div element when the page loads.
 				    document.addEventListener("DOMContentLoaded", () => {
-				      document.getElementByClass("time").innerHTML = nyTime;
+				      document.getElementByID("time").innerHTML = nyTime;
 				    });
 				  </script>
-  				  <span class="time"></span></p>
+  				  <span id="time">!</span></p>
 		</aside>
 
 		<footer>

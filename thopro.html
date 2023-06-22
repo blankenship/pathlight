@@ -33,7 +33,6 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.typekit.net/eea0cdc.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
 
 </head>
 
@@ -42,30 +41,20 @@
 		<aside>
 
 
-			<p>Los Angeles CA 
-		  	  <script>
-		    // Import the Moment.js library.
-		    import moment from "moment";
-
-		    // Get the current date and time in UTC.
-		    const now = moment.utc();
-
-		    // Set the time zone to New York City.
-		    now.tz("America/New_York");
-
-		    // Get the local time in New York City.
-		    const nyTime = now.format("HH:mm:ss");
-
-		    // Set the inner HTML of the div element when the page loads.
-		    document.querySelector(".time").innerHTML = nyTime;
-		  </script> <span class="time">?</span></p>
+			<p>Los Angeles <span id="date-time-la"></span>
+			<script>
+           var dm = new Date();
+           var nm = dm.toLocaleTimeString(("en-US"),{timeZone: "America/Los_Angeles", hour: "2-digit", minute: "2-digit" });
+           document.getElementById('date-time-la').innerHTML=nm;
+       	</script>
+         </p>
 
 
-			<p>Brooklyn NY <span id="date-timem"></span>
+			<p>Brooklyn <span id="date-timeny"></span>
 			<script>
            var dm = new Date();
            var nm = dm.toLocaleTimeString(("en-US"),{timeZone: "America/New_York", hour: "2-digit", minute: "2-digit" });
-           document.getElementById('date-timem').innerHTML=nm;
+           document.getElementById('date-time-ny').innerHTML=nm;
        	</script>
          </p>
 		</aside>

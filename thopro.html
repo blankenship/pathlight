@@ -52,8 +52,10 @@
     // Get the local time in Los Angeles.
     const laTime = now.format("HH:mm:ss");
 
-    // Set the inner HTML of the div element.
-    document.getElementById("time").innerHTML = laTime;
+     // Set the inner HTML of the div element when the page loads.
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("time").innerHTML = laTime;
+    });
   </script>  <div id="time"></div></p>
 			<p>Brooklyn NY 
 					<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script><script>
@@ -69,8 +71,10 @@
     // Get the local time in New York City.
     const nyTime = now.format("HH:mm:ss");
 
-    // Set the inner HTML of the div element.
-    document.getElementById("time").innerHTML = nyTime;
+     // Set the inner HTML of the div element when the page loads.
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("time").innerHTML = nyTime;
+    });
   </script>  <div id="time"></div></p>
 		</aside>
 

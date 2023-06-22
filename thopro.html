@@ -84,6 +84,24 @@
   				  <span id="time">!</span></p>
 		</aside>
 
+  <p id="time"></p>
+  <script>
+    // Import the Moment.js library.
+    import moment from "moment";
+
+    // Get the current date and time in UTC.
+    const now = moment.utc();
+
+    // Set the time zone to Los Angeles.
+    now.tz("America/Los_Angeles");
+
+    // Get the local time in Los Angeles.
+    const laTime = now.format("HH:mm:ss");
+
+    // Set the inner HTML of the <p> element when the page loads.
+    document.getElementById("time").innerHTML = laTime;
+  </script>
+  
 		<footer>
 			<section>
 				<p>&copy;<script>document.write(new Date().getFullYear())</script> All Rights Reserved.</p>

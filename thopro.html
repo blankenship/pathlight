@@ -58,24 +58,26 @@
     });
   </script>  <div id="time"></div></p>
 			<p>Brooklyn NY 
-					<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script><script>
-    // Import the Moment.js library.
-    import moment from "moment";
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+					<script>
+				    // Import the Moment.js library.
+				    import moment from "moment";
 
-    // Get the current date and time in UTC.
-    const now = moment.utc();
+				    // Get the current date and time in UTC.
+				    const now = moment.utc();
 
-    // Set the time zone to New York City.
-    now.tz("America/New_York");
+				    // Set the time zone to New York City.
+				    now.tz("America/New_York");
 
-    // Get the local time in New York City.
-    const nyTime = now.format("HH:mm:ss");
+				    // Get the local time in New York City.
+				    const nyTime = now.format("HH:mm:ss");
 
-     // Set the inner HTML of the div element when the page loads.
-    document.addEventListener("DOMContentLoaded", () => {
-      document.getElementById("time").innerHTML = nyTime;
-    });
-  </script>  <div id="time"></div></p>
+				    // Set the inner HTML of the div element when the page loads.
+				    document.addEventListener("DOMContentLoaded", () => {
+				      document.getElementById("time").innerHTML = nyTime;
+				    });
+				  </script>
+  				  <div id="time"></div></p>
 		</aside>
 
 		<footer>

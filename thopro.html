@@ -40,24 +40,22 @@
 		<aside>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 			<p>Los Angeles CA 
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script><script>
-// Import the Moment.js library.
-    import moment from "moment";
+		  	  <script>
+		    // Import the Moment.js library.
+		    import moment from "moment";
 
-    // Get the current date and time in UTC.
-    const now = moment.utc();
+		    // Get the current date and time in UTC.
+		    const now = moment.utc();
 
-    // Set the time zone to Los Angeles.
-    now.tz("America/Los–Angeles");
+		    // Set the time zone to New York City.
+		    now.tz("America/New_York");
 
-    // Get the local time in Los Angeles.
-    const laTime = now.format("HH:mm:ss");
+		    // Get the local time in New York City.
+		    const nyTime = now.format("HH:mm:ss");
 
-     // Set the inner HTML of the div element when the page loads.
-    document.addEventListener("DOMContentLoaded", () => {
-      document.getElementById("time").innerHTML = laTime;
-    });
-  </script>  <span id="time"></span></p>
+		    // Set the inner HTML of the div element when the page loads.
+		    document.querySelector("#time").innerHTML = nyTime;
+		  </script> <span id="time"></span></p>
 
 
 			<p>Brooklyn NY 

@@ -101,16 +101,16 @@
     // Set the inner HTML of the <p> element when the page loads.
     document.getElementById("time").innerHTML = laTime;
   </script>
-  
-		<footer>
-			<section>
-				<p>&copy;<script>document.write(new Date().getFullYear())</script> All Rights Reserved.</p>
-				<p class="white"><em class="brand">&#9679;&horbar;&horbar;&#9679;</em> Thought Process</p>
-				<p>5822 Venice Boulevard<br />
-				Los Angeles, CA 90019</p>
-				<p class="white">All Method; No Madness.</p>
-			</section>
-		</footer>
+
+
+   <p><span id="date-timem"></span>
+
+                <script>
+                    var dm = new Date();
+                    var nm = dm.toLocaleTimeString(("en-US"),{timeZone: "America/Mexico_City", hour: "2-digit", minute: "2-digit" });
+                    document.getElementById('date-timem').innerHTML=nm;
+                </script>
+                </p>
 	</main>
 </body>
 </html>
